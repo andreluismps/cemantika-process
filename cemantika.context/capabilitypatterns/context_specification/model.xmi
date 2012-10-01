@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_fNxugGEWEd-DPMZMcQzoLA"
+      guid="_fNxugGEWEd-DPMZMcQzoLA">
+    <resourceDescriptors xmi:id="_fNxugWEWEd-DPMZMcQzoLA" id="-D2pv0tOHO-QPawKBLGER8g"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_fKuagGEWEd-DPMZMcQzoLA" name="context_specification"
+      guid="_fKuagGEWEd-DPMZMcQzoLA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MFVMEGEYEd-DPMZMcQzoLA"
+        name="Context Specification" guid="_MFVMEGEYEd-DPMZMcQzoLA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_MFVzIGEYEd-DPMZMcQzoLA"
+          name="Context Specification" guid="_MFVzIGEYEd-DPMZMcQzoLA" presentationName="Context Specification"
+          superActivities="_fKuagWEWEd-DPMZMcQzoLA" breakdownElements="_V1mzUGEYEd-DPMZMcQzoLA _V1mzUmEYEd-DPMZMcQzoLA _V1mzUWEYEd-DPMZMcQzoLA _V1mzVGEYEd-DPMZMcQzoLA _V1mzU2EYEd-DPMZMcQzoLA _V168YGEYEd-DPMZMcQzoLA _V168YWEYEd-DPMZMcQzoLA _V17jcGEYEd-DPMZMcQzoLA _V17jcWEYEd-DPMZMcQzoLA _V17jcmEYEd-DPMZMcQzoLA _V17jc2EYEd-DPMZMcQzoLA _V17jdGEYEd-DPMZMcQzoLA _V17jdWEYEd-DPMZMcQzoLA _V17jdmEYEd-DPMZMcQzoLA _V17jd2EYEd-DPMZMcQzoLA">
+        <methodElementProperty xmi:id="_t-Ey4GE-Ed-Pefk4w1orug" name="publish_ad"
+            value="true"/>
+        <methodElementProperty xmi:id="_t-Ey4WE-Ed-Pefk4w1orug" name="publish_add"
+            value="true"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V1mzUGEYEd-DPMZMcQzoLA"
+          name="identify_focus" guid="_V1mzUGEYEd-DPMZMcQzoLA" presentationName="Identify Focus"
+          superActivities="_MFVzIGEYEd-DPMZMcQzoLA" additionallyPerformedBy="_V168YWEYEd-DPMZMcQzoLA"
+          mandatoryInput="_V17jcGEYEd-DPMZMcQzoLA _V17jcWEYEd-DPMZMcQzoLA" output="_V17jcmEYEd-DPMZMcQzoLA"
+          performedPrimarilyBy="_V168YGEYEd-DPMZMcQzoLA">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_hzM74Ft0Ed-s-Z5crgs3zA"/>
+        <selectedSteps href="uma://-HskSgRRz6Lw_d0aT7fJhuw#_8Gk_AFymEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-HskSgRRz6Lw_d0aT7fJhuw#_EIyh8FynEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V1mzUWEYEd-DPMZMcQzoLA"
+          name="identify_contextual_entities_and_contextual_elements" guid="_V1mzUWEYEd-DPMZMcQzoLA"
+          presentationName="Identify Contextual Entities and Contextual Elements"
+          superActivities="_MFVzIGEYEd-DPMZMcQzoLA" isRepeatable="true" linkToPredecessor="_qvuBgGEzEd-DPMZMcQzoLA"
+          isSynchronizedWithSource="false" additionallyPerformedBy="_V168YWEYEd-DPMZMcQzoLA"
+          mandatoryInput="_V17jc2EYEd-DPMZMcQzoLA _V17jdGEYEd-DPMZMcQzoLA" output="_V17jdWEYEd-DPMZMcQzoLA"
+          performedPrimarilyBy="_V168YGEYEd-DPMZMcQzoLA">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_KudHAFyqEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-w6fpUIRIFDXGC1RsL88nKQ#_1eRRcFyqEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-w6fpUIRIFDXGC1RsL88nKQ#_25-acFyqEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V1mzUmEYEd-DPMZMcQzoLA"
+          name="identify_behavior_variations" guid="_V1mzUmEYEd-DPMZMcQzoLA" presentationName="Identify Behavior Variations"
+          superActivities="_MFVzIGEYEd-DPMZMcQzoLA" isRepeatable="true" linkToPredecessor="_Gi5pAGE-Ed-Pefk4w1orug"
+          isSynchronizedWithSource="false" additionallyPerformedBy="_V168YWEYEd-DPMZMcQzoLA"
+          mandatoryInput="_V17jcmEYEd-DPMZMcQzoLA _V17jcWEYEd-DPMZMcQzoLA" output="_V17jc2EYEd-DPMZMcQzoLA"
+          performedPrimarilyBy="_V168YGEYEd-DPMZMcQzoLA">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_fYU1YFynEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_c0Nn8FypEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_enRhAFypEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_iD-4cFypEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_jnUTcFypEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_ksoVsFypEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-BLQvhTaRgVpJdfGlJW4V0A#_p8lzcFypEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V1mzU2EYEd-DPMZMcQzoLA"
+          name="verify_contextual_elements_relevance" guid="_V1mzU2EYEd-DPMZMcQzoLA"
+          presentationName="Verify Contextual Elements Relevance" isOptional="true"
+          superActivities="_MFVzIGEYEd-DPMZMcQzoLA" isRepeatable="true" linkToPredecessor="_r9YHcGEzEd-DPMZMcQzoLA"
+          isSynchronizedWithSource="false" additionallyPerformedBy="_V168YWEYEd-DPMZMcQzoLA"
+          mandatoryInput="_V17jc2EYEd-DPMZMcQzoLA _V17jdWEYEd-DPMZMcQzoLA" output="_V17jdWEYEd-DPMZMcQzoLA _V17jc2EYEd-DPMZMcQzoLA _V17jdmEYEd-DPMZMcQzoLA"
+          performedPrimarilyBy="_V168YGEYEd-DPMZMcQzoLA">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_fTkpgFytEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-2HSVbWm8-Vdipnw47AHh5Q#_BQ84gFyvEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V1mzVGEYEd-DPMZMcQzoLA"
+          name="design_context_behavior_model" guid="_V1mzVGEYEd-DPMZMcQzoLA" presentationName="Design Context Behavior Model"
+          superActivities="_MFVzIGEYEd-DPMZMcQzoLA" isRepeatable="true" linkToPredecessor="_rc-wIGEzEd-DPMZMcQzoLA"
+          isSynchronizedWithSource="false" additionallyPerformedBy="_V168YWEYEd-DPMZMcQzoLA"
+          mandatoryInput="_V17jdWEYEd-DPMZMcQzoLA _V17jc2EYEd-DPMZMcQzoLA" output="_V17jd2EYEd-DPMZMcQzoLA"
+          performedPrimarilyBy="_V168YGEYEd-DPMZMcQzoLA">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_3VWVkFyvEd-daNeN1z0Psw"/>
+        <selectedSteps href="uma://-9NrKIyE9lJkjeHjzpMn2Pg#_N0_6wF1mEd-8Qp4uHDzZ1w"/>
+        <selectedSteps href="uma://-9NrKIyE9lJkjeHjzpMn2Pg#_PC_-8F1mEd-8Qp4uHDzZ1w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_V168YGEYEd-DPMZMcQzoLA"
+          name="context_designer" guid="_V168YGEYEd-DPMZMcQzoLA" presentationName="Context Designer"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA" modifies="_V17jcmEYEd-DPMZMcQzoLA _V17jdWEYEd-DPMZMcQzoLA _V17jc2EYEd-DPMZMcQzoLA _V17jdmEYEd-DPMZMcQzoLA _V17jd2EYEd-DPMZMcQzoLA">
+        <Role href="uma://_qso6oFrYEd-s-Z5crgs3zA#_HhXz0FrlEd-s-Z5crgs3zA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_V168YWEYEd-DPMZMcQzoLA"
+          name="analyst" guid="_V168YWEYEd-DPMZMcQzoLA" presentationName="Analyst"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jcGEYEd-DPMZMcQzoLA"
+          name="use_case_model" guid="_V17jcGEYEd-DPMZMcQzoLA" presentationName="Use-Case Model"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jcWEYEd-DPMZMcQzoLA"
+          name="use_case" guid="_V17jcWEYEd-DPMZMcQzoLA" presentationName="Use Case"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jcmEYEd-DPMZMcQzoLA"
+          name="enriched_use_cases_model" guid="_V17jcmEYEd-DPMZMcQzoLA" presentationName="Enriched Use Cases Model"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_yAyCUFu3Ed-s-Z5crgs3zA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jc2EYEd-DPMZMcQzoLA"
+          name="context_requirements" guid="_V17jc2EYEd-DPMZMcQzoLA" presentationName="Context Requirements"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_DBIg4FyoEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jdGEYEd-DPMZMcQzoLA"
+          name="conceptual_model" guid="_V17jdGEYEd-DPMZMcQzoLA" presentationName="Conceptual Model"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_AwCEIFysEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jdWEYEd-DPMZMcQzoLA"
+          name="context_conceptual_model" guid="_V17jdWEYEd-DPMZMcQzoLA" presentationName="Context Conceptual Model"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_SBnrQFytEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jdmEYEd-DPMZMcQzoLA"
+          name="relevance_evaluation" guid="_V17jdmEYEd-DPMZMcQzoLA" presentationName="Relevance Evaluation"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_dUc_gFyvEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_V17jd2EYEd-DPMZMcQzoLA"
+          name="context_behavior_model" guid="_V17jd2EYEd-DPMZMcQzoLA" presentationName="Context Behavior Model"
+          isPlanned="false" superActivities="_MFVzIGEYEd-DPMZMcQzoLA">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_16rR4FywEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_qvuBgGEzEd-DPMZMcQzoLA"
+          guid="_qvuBgGEzEd-DPMZMcQzoLA" pred="_V1mzUmEYEd-DPMZMcQzoLA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rc-wIGEzEd-DPMZMcQzoLA"
+          guid="_rc-wIGEzEd-DPMZMcQzoLA" pred="_V1mzUWEYEd-DPMZMcQzoLA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_r9YHcGEzEd-DPMZMcQzoLA"
+          guid="_r9YHcGEzEd-DPMZMcQzoLA" pred="_V1mzVGEYEd-DPMZMcQzoLA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Gi5pAGE-Ed-Pefk4w1orug"
+          guid="_Gi5pAGE-Ed-Pefk4w1orug" pred="_V1mzUGEYEd-DPMZMcQzoLA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_fKuagWEWEd-DPMZMcQzoLA"
+        name="context_specification" guid="_fKuagWEWEd-DPMZMcQzoLA" presentationName="Context Specification"
+        briefDescription="This context specification iteration template defines the activities (and associated roles and work  products) performed in a typical iteration in the Context Specification phase."
+        breakdownElements="_MFVzIGEYEd-DPMZMcQzoLA">
+      <presentation xmi:id="-D2pv0tOHO-QPawKBLGER8g" href="uma://-D2pv0tOHO-QPawKBLGER8g#-D2pv0tOHO-QPawKBLGER8g"/>
+      <defaultContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.0" xmlns:epf="http://www.eclipse.org/epf"
+    epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_4q9fAdOEEdyqlogshP8l4g"
+      guid="_4q9fAdOEEdyqlogshP8l4g">
+    <resourceDescriptors xmi:id="_4q9fAtOEEdyqlogshP8l4g" id="-BZ8afnvoVBJs82vzcOBaCw"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4ouDUNOEEdyqlogshP8l4g" name="agree_technical_approach"
+      guid="_4ouDUNOEEdyqlogshP8l4g">
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BWWIgdOKEdyqlogshP8l4g"
+        name="architect" guid="_BWWIgdOKEdyqlogshP8l4g" presentationName="Architect"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g" modifies="_BWf5gtOKEdyqlogshP8l4g"
+        responsibleFor="_BWf5gtOKEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BWf5gtOKEdyqlogshP8l4g"
+        name="architecture_notebook" guid="_BWf5gtOKEdyqlogshP8l4g" presentationName="Architecture Notebook"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_n75CcdfeEdy8T_PKWvNDBA"
+        name="analyst" guid="_n75CcdfeEdy8T_PKWvNDBA" presentationName="Analyst" isPlanned="false"
+        superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_n75CctfeEdy8T_PKWvNDBA"
+        name="developer" guid="_n75CctfeEdy8T_PKWvNDBA" presentationName="Developer"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_n75Cc9feEdy8T_PKWvNDBA"
+        name="project_manager" guid="_n75Cc9feEdy8T_PKWvNDBA" presentationName="Project Manager"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_n75CdNfeEdy8T_PKWvNDBA"
+        name="stakeholder" guid="_n75CdNfeEdy8T_PKWvNDBA" presentationName="Stakeholder"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_n75CddfeEdy8T_PKWvNDBA"
+        name="technical_specification_slot" guid="_n75CddfeEdy8T_PKWvNDBA" presentationName="[Technical Specification]"
+        isPlanned="false" superActivities="_4ouDUdOEEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_sjccUN_1EdyOsumnGvWsEg"
+        name="outline_the_arch" guid="_sjccUN_1EdyOsumnGvWsEg" presentationName="Outline the Architecture"
+        isPlanned="true" superActivities="_4ouDUdOEEdyqlogshP8l4g" additionallyPerformedBy="_n75CcdfeEdy8T_PKWvNDBA _n75CctfeEdy8T_PKWvNDBA _n75Cc9feEdy8T_PKWvNDBA _n75CdNfeEdy8T_PKWvNDBA"
+        mandatoryInput="_n75CddfeEdy8T_PKWvNDBA" optionalInput="_BWf5gtOKEdyqlogshP8l4g"
+        output="_BWf5gtOKEdyqlogshP8l4g" performedPrimarilyBy="_BWWIgdOKEdyqlogshP8l4g">
+      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0f-1oMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_3nMQQA3rEduibvKwrGxWxA"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_f0y2kM25Edym_ZFqrJcXUg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_9o6Z4CSCEdqDjNgZyGMf5w"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_I32E4MP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_B899cMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_FVrlsMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_tmvWwE5cEducxZ_XZXh-vw"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_KBAsYMP2EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_RKSLsNp3EdyItewP9R0w7Q"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Q2PRIFHSEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_qDRSULBKEdm7Eph_l9Cn9w#_Xia1QFHSEd2zrOgIte8oWg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ouDUdOEEdyqlogshP8l4g"
+        name="agree_technical_approach" guid="_4ouDUdOEEdyqlogshP8l4g" presentationName="Agree on Technical Approach"
+        briefDescription="Reach agreement on a viable technical approach to developing the solution."
+        breakdownElements="_BWWIgdOKEdyqlogshP8l4g _BWf5gtOKEdyqlogshP8l4g _n75CcdfeEdy8T_PKWvNDBA _n75CctfeEdy8T_PKWvNDBA _n75Cc9feEdy8T_PKWvNDBA _n75CdNfeEdy8T_PKWvNDBA _n75CddfeEdy8T_PKWvNDBA _sjccUN_1EdyOsumnGvWsEg">
+      <presentation xmi:id="-BZ8afnvoVBJs82vzcOBaCw" href="uma://-BZ8afnvoVBJs82vzcOBaCw#-BZ8afnvoVBJs82vzcOBaCw"/>
+      <defaultContext href="uma://_gumPEOdPEd2auIPznZi4lQ#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+      <validContext href="uma://_gumPEOdPEd2auIPznZi4lQ#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

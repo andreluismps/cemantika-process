@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_qtTpAFrYEd-s-Z5crgs3zA"
+      guid="_qtTpAFrYEd-s-Z5crgs3zA">
+    <subManagers xmi:id="_RAZV8GBqEd-DPMZMcQzoLA" href="uma://_Q8yBQGBqEd-DPMZMcQzoLA#_RAZV8GBqEd-DPMZMcQzoLA"/>
+    <subManagers xmi:id="_fNxugGEWEd-DPMZMcQzoLA" href="uma://_fKuagGEWEd-DPMZMcQzoLA#_fNxugGEWEd-DPMZMcQzoLA"/>
+    <subManagers xmi:id="_ivmPcGEWEd-DPMZMcQzoLA" href="uma://_ir6pUGEWEd-DPMZMcQzoLA#_ivmPcGEWEd-DPMZMcQzoLA"/>
+    <subManagers xmi:id="_oZWtQWEWEd-DPMZMcQzoLA" href="uma://_oWip0GEWEd-DPMZMcQzoLA#_oZWtQWEWEd-DPMZMcQzoLA"/>
+    <resourceDescriptors xmi:id="_Rrk3oFrdEd-s-Z5crgs3zA" id="-8dCWo_j1LTNd02HuEfrXRw"
+        uri="guidances/supportingmaterials/cin_copyright.xmi"/>
+    <resourceDescriptors xmi:id="_DtakkFrmEd-s-Z5crgs3zA" id="-MAU-7dpOKWtKAuC7aS1VTw"
+        uri="roles/context_designer.xmi"/>
+    <resourceDescriptors xmi:id="_u0-JEFt0Ed-s-Z5crgs3zA" id="-HskSgRRz6Lw_d0aT7fJhuw"
+        uri="tasks/identify_focus.xmi"/>
+    <resourceDescriptors xmi:id="_HxLSgFt2Ed-s-Z5crgs3zA" id="-Ro7DaYI2Nq410iRtnyG83A"
+        uri="guidances/concepts/task.xmi"/>
+    <resourceDescriptors xmi:id="_4zx0MFt3Ed-s-Z5crgs3zA" id="-LXoRG0sJak-XJmf702Amlg"
+        uri="guidances/concepts/agent.xmi"/>
+    <resourceDescriptors xmi:id="_N7LrwFt4Ed-s-Z5crgs3zA" id="-uw7EDMmlV_vMqkf_ACVW4w"
+        uri="guidances/termdefinitions/css.xmi"/>
+    <resourceDescriptors xmi:id="_C9kXwFuxEd-s-Z5crgs3zA" id="-xQFw9D_tNIM5wUD_s2Dnyg"
+        uri="domains/context_domain.xmi"/>
+    <resourceDescriptors xmi:id="_EaaJMFuxEd-s-Z5crgs3zA" id="-5DohLU-I2dkuPbsz9Uc42w"
+        uri="rolesets/context_roles.xmi"/>
+    <resourceDescriptors xmi:id="_vh7XEFuzEd-s-Z5crgs3zA" id="-YOH9KgdVtAptu2Ib8-uUwg"
+        uri="guidances/concepts/focus.xmi"/>
+    <resourceDescriptors xmi:id="_Kk7DUFu0Ed-s-Z5crgs3zA" id="-V9zujRS_r57dLhRgWjmsKw"
+        uri="guidances/guidelines/types_of_knowledge.xmi"/>
+    <resourceDescriptors xmi:id="_iCRXMFu3Ed-s-Z5crgs3zA" id="-44oUQ2jczSEZEuDst0IcTA"
+        uri="guidances/toolmentors/cemantika_case_modeling_enriched_use_cases_model.xmi"/>
+    <resourceDescriptors xmi:id="_6ABw0Fu3Ed-s-Z5crgs3zA" id="-dD1435NdJulAWsxtbxTt0Q"
+        uri="workproducts/enriched_use_cases_model.xmi"/>
+    <resourceDescriptors xmi:id="_mD3dAFu6Ed-s-Z5crgs3zA" id="-h1x-ScIGLVPzqWuaVz2lRw"
+        uri="guidances/examples/icare_enriched_use_cases_model.xmi"/>
+    <resourceDescriptors xmi:id="_b7kFkFvhEd-cacLUNZfd0w" id="-gk-htO15aMXY2EMHAMW76w"
+        uri="tools/cemantika_tool.xmi"/>
+    <resourceDescriptors xmi:id="_mNSiEFynEd-daNeN1z0Psw" id="-BLQvhTaRgVpJdfGlJW4V0A"
+        uri="tasks/identify_behavior_variations.xmi"/>
+    <resourceDescriptors xmi:id="_c2YAkFyoEd-daNeN1z0Psw" id="-IKyODc-t3earsIH0HjKi0g"
+        uri="guidances/toolmentors/cemantika_case_modeling_behavior_variations.xmi"/>
+    <resourceDescriptors xmi:id="_qvr5wFyoEd-daNeN1z0Psw" id="-xkJ2fij4DT1yFS6OfScWGg"
+        uri="guidances/guidelines/context_requirements_guideline.xmi"/>
+    <resourceDescriptors xmi:id="_SlCeMFypEd-daNeN1z0Psw" id="-oZueMnChC5UHt8v_VgayHQ"
+        uri="guidances/templates/context_requirements_template.xmi"/>
+    <resourceDescriptors xmi:id="_iUMpQFyqEd-daNeN1z0Psw" id="-w6fpUIRIFDXGC1RsL88nKQ"
+        uri="tasks/identify_contextual_entities_and_contextual_elements.xmi"/>
+    <resourceDescriptors xmi:id="_J39R8FysEd-daNeN1z0Psw" id="-iRKtEV_1vJhT5lmI2A1u6w"
+        uri="workproducts/conceptual_model.xmi"/>
+    <resourceDescriptors xmi:id="_Eghy4FyvEd-daNeN1z0Psw" id="-2HSVbWm8-Vdipnw47AHh5Q"
+        uri="tasks/verify_contextual_elements_relevance.xmi"/>
+    <resourceDescriptors xmi:id="_pI4P0FyvEd-daNeN1z0Psw" id="-5gZ3n7q8qX8ol3gqnevb0g"
+        uri="workproducts/relevance_evaluation.xmi"/>
+    <resourceDescriptors xmi:id="_Sy7sEFywEd-daNeN1z0Psw" id="-9NrKIyE9lJkjeHjzpMn2Pg"
+        uri="tasks/design_context_behavior_model.xmi"/>
+    <resourceDescriptors xmi:id="_5UP1wFywEd-daNeN1z0Psw" id="-VkNXdV3lRaC6njVg-pboFg"
+        uri="workproducts/context_behavior_model.xmi"/>
+    <resourceDescriptors xmi:id="_t678cF1mEd-8Qp4uHDzZ1w" id="-OG3CmcvrFQXo6amUHX9GLA"
+        uri="tasks/specify_context_acquistion.xmi"/>
+    <resourceDescriptors xmi:id="_TmCk8F1pEd-8Qp4uHDzZ1w" id="-1VhxnDUHhebvz1dYziY-Cw"
+        uri="workproducts/acquisition_configuration.xmi"/>
+    <resourceDescriptors xmi:id="_Au970F1qEd-8Qp4uHDzZ1w" id="-RUvkbjjfQ3-EjRD0AOqPDw"
+        uri="guidances/examples/icare_relevance_evaluation.xmi"/>
+    <resourceDescriptors xmi:id="_SUx78F1qEd-8Qp4uHDzZ1w" id="-fjwL3ePAC8s3wdZt0c4HsQ"
+        uri="guidances/examples/icare_acquistion_configuration.xmi"/>
+    <resourceDescriptors xmi:id="_irH4QF1qEd-8Qp4uHDzZ1w" id="-abz_NXmLUT2-fOt3YXdpHQ"
+        uri="guidances/toolmentors/cemantika_case_modeling_acquisition_configuration.xmi"/>
+    <resourceDescriptors xmi:id="_UAvckF1sEd-8Qp4uHDzZ1w" id="-hTqpYJXD5LtalHcSNZNjJw"
+        uri="guidances/reports/acquisition_configuration.xmi"/>
+    <resourceDescriptors xmi:id="_D4l30F1tEd-8Qp4uHDzZ1w" id="-OymSZI8LgILR5kw5rM9M3A"
+        uri="tasks/design_acquisition_module.xmi"/>
+    <resourceDescriptors xmi:id="_i88gsF1tEd-8Qp4uHDzZ1w" id="-9lYDeufeENYlbuFdYq4Y5Q"
+        uri="workproducts/acquistion_module_specification.xmi"/>
+    <resourceDescriptors xmi:id="_zroEgF1tEd-8Qp4uHDzZ1w" id="-W_quOt5V6MG-LBdfsaBfGA"
+        uri="guidances/guidelines/context_architecture.xmi"/>
+    <resourceDescriptors xmi:id="_PDafkF1vEd-8Qp4uHDzZ1w" id="-b9UZMAgIMKgPrBny-gm3VQ"
+        uri="tasks/design_processing_module.xmi"/>
+    <resourceDescriptors xmi:id="_5p8cAF48Ed-jf_McM8riaQ" id="-PI0DZEwFlivLZf4W7B1F3w"
+        uri="tasks/design_dissemination_module.xmi"/>
+    <resourceDescriptors xmi:id="_bs91cF49Ed-jf_McM8riaQ" id="-ozc6Z857dRhdTSRUCTmSdQ"
+        uri="workproducts/dissemination_module_specification.xmi"/>
+    <resourceDescriptors xmi:id="_gpzi4F49Ed-jf_McM8riaQ" id="-QjYTLW3Xujn_kkmvC7gzCQ"
+        uri="workproducts/contextual_rules.xmi"/>
+    <resourceDescriptors xmi:id="_i8diAF49Ed-jf_McM8riaQ" id="-5-XZORga3P4yV-aVlklrGw"
+        uri="workproducts/processing_module_specification.xmi"/>
+    <resourceDescriptors xmi:id="_-SQKQF5EEd-jf_McM8riaQ" id="-m0EqyEApjdwbKByksX6V3g"
+        uri="tasks/design_context_adaptation.xmi"/>
+    <resourceDescriptors xmi:id="_-gvcwF5FEd-jf_McM8riaQ" id="-Wt-DvR9iVAyfcoIIZkZtpA"
+        uri="tasks/design_context_presentation.xmi"/>
+    <resourceDescriptors xmi:id="_nHbGgF8BEd-NIdbgBagcbg" id="-34iDIl8DPxIelD6UwOeB9g"
+        uri="customcategories/view_tabs_for_icare.xmi"/>
+    <resourceDescriptors xmi:id="_0TYpIF8PEd-tYsouBkEONw" id="-uzKnaDje2OErraIe5cGEAQ"
+        uri="guidances/supportingmaterials/introduction_to_css_design_process.xmi"/>
+    <resourceDescriptors xmi:id="_Q84H4GBqEd-DPMZMcQzoLA" id="_Q8yBQGBqEd-DPMZMcQzoLA"
+        uri="deliveryprocesses/css_design_process/model.xmi"/>
+    <resourceDescriptors xmi:id="_fKyr8GEWEd-DPMZMcQzoLA" id="_fKuagGEWEd-DPMZMcQzoLA"
+        uri="capabilitypatterns/context_specification/model.xmi"/>
+    <resourceDescriptors xmi:id="_ir-6wGEWEd-DPMZMcQzoLA" id="_ir6pUGEWEd-DPMZMcQzoLA"
+        uri="capabilitypatterns/context_management_design/model.xmi"/>
+    <resourceDescriptors xmi:id="_oWmUMGEWEd-DPMZMcQzoLA" id="_oWip0GEWEd-DPMZMcQzoLA"
+        uri="capabilitypatterns/context_usage_design/model.xmi"/>
+    <resourceDescriptors xmi:id="_EM0tIGIoEd-jf8M_sfRf4Q" id="-VSlaio8rMD7ztAr76TEt3Q"
+        uri="guidances/supportingmaterials/references.xmi"/>
+    <resourceDescriptors xmi:id="_oFzA8GI7Ed-jf8M_sfRf4Q" id="-huJwZ1fuMLucbnZhuR40PA"
+        uri="customcategories/artifact_list.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_qso6oFrYEd-s-Z5crgs3zA" name="cemantika.context"
+      guid="_qso6oFrYEd-s-Z5crgs3zA" presentationName="Context Sensitive Systems Design Process"
+      briefDescription="CEManTIKA is a set of architecure, process and metamodel to work with context sensitive systems. This plugin describes the use of it to develop these systems on a systematic and evolutionary way. This plugin can be merged with agile and RUP based processes. It defines method contents, a capability pattern an a full process. "
+      authors="Vaninha Vieira dos Santos&#xA;Raphael Freire de Araújo Patrício" changeDate="2010-05-08T16:35:08.477-0300"
+      version="0.1">
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6oVrYEd-s-Z5crgs3zA"
+        name="Content" guid="_qso6oVrYEd-s-Z5crgs3zA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6olrYEd-s-Z5crgs3zA"
+          name="Categories" guid="_qso6olrYEd-s-Z5crgs3zA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6o1rYEd-s-Z5crgs3zA"
+            name="Domains" guid="_qso6o1rYEd-s-Z5crgs3zA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_Zep78FrpEd-s-Z5crgs3zA"
+              name="context_domain" guid="_Zep78FrpEd-s-Z5crgs3zA" presentationName="Context Domain"
+              briefDescription="This is the list of work products related to the context-sensitive domain."
+              workProducts="_yAyCUFu3Ed-s-Z5crgs3zA _DBIg4FyoEd-daNeN1z0Psw _dUc_gFyvEd-daNeN1z0Psw _SBnrQFytEd-daNeN1z0Psw _16rR4FywEd-daNeN1z0Psw _D4JvwF1pEd-8Qp4uHDzZ1w _WYuyMF1tEd-8Qp4uHDzZ1w _Z_YBYF1wEd-8Qp4uHDzZ1w _QAHMwF49Ed-jf_McM8riaQ _fiedkF1wEd-8Qp4uHDzZ1w">
+            <presentation xmi:id="-xQFw9D_tNIM5wUD_s2Dnyg" href="uma://-xQFw9D_tNIM5wUD_s2Dnyg#-xQFw9D_tNIM5wUD_s2Dnyg"/>
+            <subdomains xmi:id="_f7fnMF5EEd-jf_McM8riaQ" name="context_usage" guid="_f7fnMF5EEd-jf_McM8riaQ"
+                presentationName="Context Usage" workProducts="_uS244F5FEd-jf_McM8riaQ _f0cSEF5GEd-jf_McM8riaQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_VpmUAFysEd-daNeN1z0Psw"
+              name="architecture_domain" guid="_VpmUAFysEd-daNeN1z0Psw" variabilityType="contributes"
+              workProducts="_AwCEIFysEd-daNeN1z0Psw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_1r0bcK80Edy9cPK11VzBuQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6pFrYEd-s-Z5crgs3zA"
+            name="Disciplines" guid="_qso6pFrYEd-s-Z5crgs3zA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_GIlncFufEd-s-Z5crgs3zA"
+              name="requirements_discipline" guid="_GIlncFufEd-s-Z5crgs3zA" variabilityType="contributes"
+              tasks="_hzM74Ft0Ed-s-Z5crgs3zA _KudHAFyqEd-daNeN1z0Psw _fYU1YFynEd-daNeN1z0Psw _fTkpgFytEd-daNeN1z0Psw _3VWVkFyvEd-daNeN1z0Psw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtVZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_KgpwAFy0Ed-daNeN1z0Psw"
+              name="architecture_discipline" guid="_KgpwAFy0Ed-daNeN1z0Psw" variabilityType="contributes"
+              tasks="_maj7QF1mEd-8Qp4uHDzZ1w _zPsL4F1sEd-8Qp4uHDzZ1w _0IvSsF47Ed-jf_McM8riaQ _MkGG8F4_Ed-jf_McM8riaQ _QWO70F4_Ed-jf_McM8riaQ _MJr5YF1vEd-8Qp4uHDzZ1w">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHsFZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6pVrYEd-s-Z5crgs3zA"
+            name="RoleSets" guid="_qso6pVrYEd-s-Z5crgs3zA">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_wh1loFuXEd-s-Z5crgs3zA"
+              name="context_roles" guid="_wh1loFuXEd-s-Z5crgs3zA" presentationName="Context Roles"
+              briefDescription="Additional roles for CSS Design Process" roles="_HhXz0FrlEd-s-Z5crgs3zA">
+            <presentation xmi:id="-5DohLU-I2dkuPbsz9Uc42w" href="uma://-5DohLU-I2dkuPbsz9Uc42w#-5DohLU-I2dkuPbsz9Uc42w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6plrYEd-s-Z5crgs3zA"
+            name="WP Types" guid="_qso6plrYEd-s-Z5crgs3zA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6p1rYEd-s-Z5crgs3zA"
+            name="Tools" guid="_qso6p1rYEd-s-Z5crgs3zA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_Xn8UQFvhEd-cacLUNZfd0w"
+              name="cemantika_tool" guid="_Xn8UQFvhEd-cacLUNZfd0w" presentationName="CEManTIKA CASE"
+              briefDescription="CEManTIKA CASE Design Tool" toolMentors="_BD-xMFu3Ed-s-Z5crgs3zA _UzgWUFyoEd-daNeN1z0Psw _RZJA4FyrEd-daNeN1z0Psw _HbjkIFywEd-daNeN1z0Psw _514OEFyuEd-daNeN1z0Psw _bWnI0F1qEd-8Qp4uHDzZ1w _INyoUF4vEd-jf_McM8riaQ">
+            <presentation xmi:id="-gk-htO15aMXY2EMHAMW76w" href="uma://-gk-htO15aMXY2EMHAMW76w#-gk-htO15aMXY2EMHAMW76w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6qFrYEd-s-Z5crgs3zA"
+            name="StandardCategories" guid="_qso6qFrYEd-s-Z5crgs3zA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6qVrYEd-s-Z5crgs3zA"
+            name="CustomCategories" guid="_qso6qVrYEd-s-Z5crgs3zA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6qlrYEd-s-Z5crgs3zA"
+              name="Hidden" guid="_qso6qlrYEd-s-Z5crgs3zA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_qso6q1rYEd-s-Z5crgs3zA"
+                name="Custom Categories" guid="_qso6q1rYEd-s-Z5crgs3zA" categorizedElements="_LGDpQFrqEd-s-Z5crgs3zA _jlSsUFu7Ed-s-Z5crgs3zA _Mf5DsF8AEd-NIdbgBagcbg _vkdskGIoEd-jf8M_sfRf4Q _gTlcIGIrEd-jf8M_sfRf4Q _4ehWIGIrEd-jf8M_sfRf4Q _z_71gGIsEd-jf8M_sfRf4Q"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LGDpQFrqEd-s-Z5crgs3zA"
+              name="role_list" guid="_LGDpQFrqEd-s-Z5crgs3zA" variabilityType="contributes"
+              categorizedElements="_HhXz0FrlEd-s-Z5crgs3zA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHZMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_jlSsUFu7Ed-s-Z5crgs3zA"
+              name="artifact_list" guid="_jlSsUFu7Ed-s-Z5crgs3zA" variabilityType="contributes"
+              categorizedElements="_yAyCUFu3Ed-s-Z5crgs3zA">
+            <presentation xmi:id="-huJwZ1fuMLucbnZhuR40PA" href="uma://-huJwZ1fuMLucbnZhuR40PA#-huJwZ1fuMLucbnZhuR40PA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCR4YMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_Mf5DsF8AEd-NIdbgBagcbg"
+              name="view_tabs_for_icare" guid="_Mf5DsF8AEd-NIdbgBagcbg" presentationName="ICARE"
+              shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif"
+              categorizedElements="_qyMdIGI4Ed-jf8M_sfRf4Q _OG0twF1qEd-8Qp4uHDzZ1w _LqQA0F1uEd-8Qp4uHDzZ1w _mKg4wF5FEd-jf_McM8riaQ _D14lUFytEd-daNeN1z0Psw _liKMQF1pEd-8Qp4uHDzZ1w _3hVnUFyoEd-daNeN1z0Psw _nq36QF4vEd-jf_McM8riaQ _4tlcEFu4Ed-s-Z5crgs3zA _v2-hkF5GEd-jf_McM8riaQ _8l08MF1pEd-8Qp4uHDzZ1w">
+            <presentation xmi:id="-34iDIl8DPxIelD6UwOeB9g" href="uma://-34iDIl8DPxIelD6UwOeB9g#-34iDIl8DPxIelD6UwOeB9g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_vkdskGIoEd-jf8M_sfRf4Q"
+              name="navigation_view_css" guid="_vkdskGIoEd-jf8M_sfRf4Q" presentationName="CSS"
+              shapeicon="customcategories/resources/lib_32.gif" nodeicon="customcategories/resources/lib_16.gif">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYsRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHZMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#__O1Y8MRgEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_CXQicMRhEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_qdO80MRhEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_VTspMMRfEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gTlcIGIrEd-jf8M_sfRf4Q"
+              name="getting_started" guid="_gTlcIGIrEd-jf8M_sfRf4Q" briefDescription="This area provides information useful for understanding how to deploy and adopt CSS Design Process."
+              shapeicon="customcategories/resources/mic.gif" nodeicon="customcategories/resources/mic.gif"
+              variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_4ehWIGIrEd-jf8M_sfRf4Q"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_FxJEkFUKEd2_rMtRMt_EMg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4ehWIGIrEd-jf8M_sfRf4Q"
+              name="understanding_css_design_process" guid="_4ehWIGIrEd-jf8M_sfRf4Q"
+              presentationName="Understanding CSS Design Process" briefDescription="CSS Design Process is a sistematic way to develop context sensitive systems."
+              shapeicon="customcategories/resources/mic.gif" nodeicon="customcategories/resources/mic.gif"
+              categorizedElements="_IRWq0GIuEd-jf8M_sfRf4Q _z_71gGIsEd-jf8M_sfRf4Q"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_z_71gGIsEd-jf8M_sfRf4Q"
+              name="core_principles" guid="_z_71gGIsEd-jf8M_sfRf4Q" presentationName="Core Principles"
+              shapeicon="customcategories/resources/concept_dgm32.gif" nodeicon="customcategories/resources/concept_obj.gif"
+              categorizedElements="_cYcKUGItEd-jf8M_sfRf4Q _lVvHoFyqEd-daNeN1z0Psw _1CKe8F5EEd-jf_McM8riaQ _lw2ekFuzEd-s-Z5crgs3zA _cRSWAFt1Ed-s-Z5crgs3zA"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qso6rFrYEd-s-Z5crgs3zA"
+          name="CoreContent" guid="_qso6rFrYEd-s-Z5crgs3zA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_BghQMFrbEd-s-Z5crgs3zA"
+            name="cin_supporting_material" guid="_BghQMFrbEd-s-Z5crgs3zA" presentationName="Informatics Center"
+            briefDescription="Informatics Center of Universidade Federal de Pernambuco, Brazil&#xA;">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_L-JFoFrbEd-s-Z5crgs3zA"
+              name="cin_copyright" guid="_L-JFoFrbEd-s-Z5crgs3zA" briefDescription="Universidade Federal de Pernambuco"
+              shapeicon="guidances/supportingmaterials/resources/logo-cin-jpg-menor.jpg"
+              variabilityType="replaces">
+            <presentation xmi:id="-8dCWo_j1LTNd02HuEfrXRw" href="uma://-8dCWo_j1LTNd02HuEfrXRw#-8dCWo_j1LTNd02HuEfrXRw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial"
+                href="uma://_iVydgENdEdy245g62lfWcA#_uuunoPsDEdmyhNQr5STrZQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_DMIuYFrkEd-s-Z5crgs3zA"
+            name="css_design_process" guid="_DMIuYFrkEd-s-Z5crgs3zA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_qVxSsFucEd-s-Z5crgs3zA"
+              name="analysis" guid="_qVxSsFucEd-s-Z5crgs3zA" presentationName="Analysis"
+              briefDescription="Analysis elements">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_hzM74Ft0Ed-s-Z5crgs3zA"
+                name="identify_focus" guid="_hzM74Ft0Ed-s-Z5crgs3zA" presentationName="Identify Focus"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" output="_yAyCUFu3Ed-s-Z5crgs3zA"
+                toolMentors="_BD-xMFu3Ed-s-Z5crgs3zA">
+              <presentation xmi:id="-HskSgRRz6Lw_d0aT7fJhuw" href="uma://-HskSgRRz6Lw_d0aT7fJhuw#-HskSgRRz6Lw_d0aT7fJhuw"/>
+              <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+              <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_yAyCUFu3Ed-s-Z5crgs3zA"
+                name="enriched_use_cases_model" guid="_yAyCUFu3Ed-s-Z5crgs3zA" presentationName="Enriched Use Cases Model"
+                briefDescription="An enhanced UML Use Cases Model describing context sensitive requirements."
+                conceptsAndPapers="_d3fM4Ft3Ed-s-Z5crgs3zA _lw2ekFuzEd-s-Z5crgs3zA _cRSWAFt1Ed-s-Z5crgs3zA"
+                examples="_4tlcEFu4Ed-s-Z5crgs3zA">
+              <presentation xmi:id="-dD1435NdJulAWsxtbxTt0Q" href="uma://-dD1435NdJulAWsxtbxTt0Q#-dD1435NdJulAWsxtbxTt0Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fYU1YFynEd-daNeN1z0Psw"
+                name="identify_behavior_variations" guid="_fYU1YFynEd-daNeN1z0Psw"
+                presentationName="Identify Behavior Variations" briefDescription="Behavior variations indicate different actions, related to a focus, that the CSS may execute."
+                checklists="_uffzYFyoEd-daNeN1z0Psw" guidelines="_nUwD8FyoEd-daNeN1z0Psw"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" output="_DBIg4FyoEd-daNeN1z0Psw"
+                toolMentors="_UzgWUFyoEd-daNeN1z0Psw">
+              <presentation xmi:id="-BLQvhTaRgVpJdfGlJW4V0A" href="uma://-BLQvhTaRgVpJdfGlJW4V0A#-BLQvhTaRgVpJdfGlJW4V0A"/>
+              <mandatoryInput href="#_yAyCUFu3Ed-s-Z5crgs3zA"/>
+              <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0VGbUMlgEdmt3adZL5Dmdw"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_DBIg4FyoEd-daNeN1z0Psw"
+                name="context_requirements" guid="_DBIg4FyoEd-daNeN1z0Psw" presentationName="Context Requirements"
+                briefDescription="List identified behavior variations." examples="_3hVnUFyoEd-daNeN1z0Psw"
+                templates="_KzcKIFypEd-daNeN1z0Psw"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_UzgWUFyoEd-daNeN1z0Psw"
+                name="cemantika_case_modeling_behavior_variations" guid="_UzgWUFyoEd-daNeN1z0Psw"
+                presentationName="Modeling Behavior Variations">
+              <presentation xmi:id="-IKyODc-t3earsIH0HjKi0g" href="uma://-IKyODc-t3earsIH0HjKi0g#-IKyODc-t3earsIH0HjKi0g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_BD-xMFu3Ed-s-Z5crgs3zA"
+                name="cemantika_case_modeling_enriched_use_cases_model" guid="_BD-xMFu3Ed-s-Z5crgs3zA"
+                presentationName="Modeling Enriched Use cases Model">
+              <presentation xmi:id="-44oUQ2jczSEZEuDst0IcTA" href="uma://-44oUQ2jczSEZEuDst0IcTA#-44oUQ2jczSEZEuDst0IcTA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_nUwD8FyoEd-daNeN1z0Psw"
+                name="context_requirements_guideline" guid="_nUwD8FyoEd-daNeN1z0Psw"
+                presentationName="Context Requirements Guideline" briefDescription="Guideline to Context Requirements">
+              <presentation xmi:id="-xkJ2fij4DT1yFS6OfScWGg" href="uma://-xkJ2fij4DT1yFS6OfScWGg#-xkJ2fij4DT1yFS6OfScWGg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_uffzYFyoEd-daNeN1z0Psw"
+                name="context_requirements_checklist" guid="_uffzYFyoEd-daNeN1z0Psw"
+                presentationName="Context Requirements Checklist" briefDescription="Checklist to not forget behavior variations."/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_KzcKIFypEd-daNeN1z0Psw"
+                name="context_requirements_template" guid="_KzcKIFypEd-daNeN1z0Psw"
+                presentationName="Context Requirements Template" variabilityType="extendsReplaces">
+              <presentation xmi:id="-oZueMnChC5UHt8v_VgayHQ" href="uma://-oZueMnChC5UHt8v_VgayHQ#-oZueMnChC5UHt8v_VgayHQ"/>
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Template" href="uma://_OOB2AAouEdyhlpBPrduOMw#_3Y3XUI5fEdyO5aWob1UGDA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KudHAFyqEd-daNeN1z0Psw"
+                name="identify_contextual_entities_and_contextual_elements" guid="_KudHAFyqEd-daNeN1z0Psw"
+                presentationName="Identify Contextual Entities and Contextual Elements"
+                briefDescription="Identify the entities related to the focus and the characteristics from those entities that influence each variation."
+                conceptsAndPapers="_lVvHoFyqEd-daNeN1z0Psw _oZ_i0FyqEd-daNeN1z0Psw"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_DBIg4FyoEd-daNeN1z0Psw _AwCEIFysEd-daNeN1z0Psw"
+                output="_SBnrQFytEd-daNeN1z0Psw" toolMentors="_RZJA4FyrEd-daNeN1z0Psw">
+              <presentation xmi:id="-w6fpUIRIFDXGC1RsL88nKQ" href="uma://-w6fpUIRIFDXGC1RsL88nKQ#-w6fpUIRIFDXGC1RsL88nKQ"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_RZJA4FyrEd-daNeN1z0Psw"
+                name="cemantika_case_modeling_contextual_entities_and_contextual_elements"
+                guid="_RZJA4FyrEd-daNeN1z0Psw" presentationName="Modeling Contextual Entities and Contextual Elements"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_AwCEIFysEd-daNeN1z0Psw"
+                name="conceptual_model" guid="_AwCEIFysEd-daNeN1z0Psw" presentationName="Conceptual Model"
+                briefDescription="Model describing main entities from application">
+              <presentation xmi:id="-iRKtEV_1vJhT5lmI2A1u6w" href="uma://-iRKtEV_1vJhT5lmI2A1u6w#-iRKtEV_1vJhT5lmI2A1u6w"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_cVbS0FysEd-daNeN1z0Psw"
+                name="conceptual_model" guid="_cVbS0FysEd-daNeN1z0Psw" presentationName="Conceptual Model"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_SBnrQFytEd-daNeN1z0Psw"
+                name="context_conceptual_model" guid="_SBnrQFytEd-daNeN1z0Psw" presentationName="Context Conceptual Model"
+                briefDescription=".Conceptual Model with Contextual Entities and Contextual Elements"
+                variabilityType="extends" variabilityBasedOnElement="_AwCEIFysEd-daNeN1z0Psw"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_fTkpgFytEd-daNeN1z0Psw"
+                name="verify_contextual_elements_relevance" guid="_fTkpgFytEd-daNeN1z0Psw"
+                presentationName="Verify Contextual Elements Relevance" briefDescription="Evaluate if the CSS end users and designers have the same understanding  about the relevance  of the identified contextual elements for each focus."
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_DBIg4FyoEd-daNeN1z0Psw _SBnrQFytEd-daNeN1z0Psw"
+                output="_SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw _dUc_gFyvEd-daNeN1z0Psw"
+                toolMentors="_514OEFyuEd-daNeN1z0Psw">
+              <presentation xmi:id="-2HSVbWm8-Vdipnw47AHh5Q" href="uma://-2HSVbWm8-Vdipnw47AHh5Q#-2HSVbWm8-Vdipnw47AHh5Q"/>
+              <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_E-dPIL-GEdqb7N6KIeDL8Q"/>
+              <guidelines href="uma://_OOB2AAouEdyhlpBPrduOMw#_OnoNQNSAEdmLhZ9H5Plxyw"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_514OEFyuEd-daNeN1z0Psw"
+                name="cemantika_case_modeling_contextual_elements_relevance" guid="_514OEFyuEd-daNeN1z0Psw"
+                presentationName="Modeling Contextual Elements Relevance"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_dUc_gFyvEd-daNeN1z0Psw"
+                name="relevance_evaluation" guid="_dUc_gFyvEd-daNeN1z0Psw" presentationName="Relevance Evaluation"
+                briefDescription="List of foci and their contextual elements relevances."
+                examples="_8l08MF1pEd-8Qp4uHDzZ1w" reports="_aqLOsF1sEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-5gZ3n7q8qX8ol3gqnevb0g" href="uma://-5gZ3n7q8qX8ol3gqnevb0g#-5gZ3n7q8qX8ol3gqnevb0g"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3VWVkFyvEd-daNeN1z0Psw"
+                name="design_context_behavior_model" guid="_3VWVkFyvEd-daNeN1z0Psw"
+                presentationName="Design Context Behavior Model" conceptsAndPapers="_7GXwIFyvEd-daNeN1z0Psw"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw"
+                output="_16rR4FywEd-daNeN1z0Psw" toolMentors="_HbjkIFywEd-daNeN1z0Psw">
+              <presentation xmi:id="-9NrKIyE9lJkjeHjzpMn2Pg" href="uma://-9NrKIyE9lJkjeHjzpMn2Pg#-9NrKIyE9lJkjeHjzpMn2Pg"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_HbjkIFywEd-daNeN1z0Psw"
+                name="cemantika_case_modeling_contextual_graph" guid="_HbjkIFywEd-daNeN1z0Psw"
+                presentationName="Modeling Contextual Graph" conceptsAndPapers="_7GXwIFyvEd-daNeN1z0Psw"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_16rR4FywEd-daNeN1z0Psw"
+                name="context_behavior_model" guid="_16rR4FywEd-daNeN1z0Psw" presentationName="Context Behavior Model"
+                conceptsAndPapers="_7GXwIFyvEd-daNeN1z0Psw" examples="_liKMQF1pEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-VkNXdV3lRaC6njVg-pboFg" href="uma://-VkNXdV3lRaC6njVg-pboFg#-VkNXdV3lRaC6njVg-pboFg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_aqLOsF1sEd-8Qp4uHDzZ1w"
+                name="relevance_evaluation" guid="_aqLOsF1sEd-8Qp4uHDzZ1w" presentationName="Relevance Evaluation"/>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_01yU0FucEd-s-Z5crgs3zA"
+              name="design" guid="_01yU0FucEd-s-Z5crgs3zA" presentationName="Design"
+              briefDescription="Design Elements">
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_maj7QF1mEd-8Qp4uHDzZ1w"
+                name="specify_context_acquistion" guid="_maj7QF1mEd-8Qp4uHDzZ1w" presentationName="Specify Context Acquisition"
+                conceptsAndPapers="_Mv0CEF1rEd-8Qp4uHDzZ1w _O2-i4F1rEd-8Qp4uHDzZ1w"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw"
+                output="_SBnrQFytEd-daNeN1z0Psw _D4JvwF1pEd-8Qp4uHDzZ1w" toolMentors="_bWnI0F1qEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-OG3CmcvrFQXo6amUHX9GLA" href="uma://-OG3CmcvrFQXo6amUHX9GLA#-OG3CmcvrFQXo6amUHX9GLA"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_D4JvwF1pEd-8Qp4uHDzZ1w"
+                name="acquisition_configuration" guid="_D4JvwF1pEd-8Qp4uHDzZ1w" presentationName="Acquistion Configuration"
+                briefDescription="Document " examples="_OG0twF1qEd-8Qp4uHDzZ1w" reports="_QvcD4F1sEd-8Qp4uHDzZ1w"
+                toolMentors="_bWnI0F1qEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-1VhxnDUHhebvz1dYziY-Cw" href="uma://-1VhxnDUHhebvz1dYziY-Cw#-1VhxnDUHhebvz1dYziY-Cw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_bWnI0F1qEd-8Qp4uHDzZ1w"
+                name="cemantika_case_modeling_acquisition_configuration" guid="_bWnI0F1qEd-8Qp4uHDzZ1w"
+                presentationName=" Modeling Acquistion Configuration">
+              <presentation xmi:id="-abz_NXmLUT2-fOt3YXdpHQ" href="uma://-abz_NXmLUT2-fOt3YXdpHQ#-abz_NXmLUT2-fOt3YXdpHQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Report" xmi:id="_QvcD4F1sEd-8Qp4uHDzZ1w"
+                name="acquisition_configuration" guid="_QvcD4F1sEd-8Qp4uHDzZ1w" presentationName="Acquistion Configuration">
+              <presentation xmi:id="-hTqpYJXD5LtalHcSNZNjJw" href="uma://-hTqpYJXD5LtalHcSNZNjJw#-hTqpYJXD5LtalHcSNZNjJw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zPsL4F1sEd-8Qp4uHDzZ1w"
+                name="design_acquisition_module" guid="_zPsL4F1sEd-8Qp4uHDzZ1w" presentationName="Design Acquisiton Module"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_D4JvwF1pEd-8Qp4uHDzZ1w"
+                output="_WYuyMF1tEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-OymSZI8LgILR5kw5rM9M3A" href="uma://-OymSZI8LgILR5kw5rM9M3A#-OymSZI8LgILR5kw5rM9M3A"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WYuyMF1tEd-8Qp4uHDzZ1w"
+                name="acquistion_module_specification" guid="_WYuyMF1tEd-8Qp4uHDzZ1w"
+                presentationName="Acquistion Module Specification" examples="_LqQA0F1uEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-9lYDeufeENYlbuFdYq4Y5Q" href="uma://-9lYDeufeENYlbuFdYq4Y5Q#-9lYDeufeENYlbuFdYq4Y5Q"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MJr5YF1vEd-8Qp4uHDzZ1w"
+                name="design_processing_module" guid="_MJr5YF1vEd-8Qp4uHDzZ1w" presentationName="Design Processing Module"
+                conceptsAndPapers="_cXmu4F4yEd-jf_McM8riaQ _Z3SHMF4yEd-jf_McM8riaQ _o7SR4F4yEd-jf_McM8riaQ"
+                performedBy="_HhXz0FrlEd-s-Z5crgs3zA" mandatoryInput="_16rR4FywEd-daNeN1z0Psw _SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw"
+                output="_16rR4FywEd-daNeN1z0Psw _Z_YBYF1wEd-8Qp4uHDzZ1w _fiedkF1wEd-8Qp4uHDzZ1w">
+              <presentation xmi:id="-b9UZMAgIMKgPrBny-gm3VQ" href="uma://-b9UZMAgIMKgPrBny-gm3VQ#-b9UZMAgIMKgPrBny-gm3VQ"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Z_YBYF1wEd-8Qp4uHDzZ1w"
+                name="contextual_rules" guid="_Z_YBYF1wEd-8Qp4uHDzZ1w" presentationName="Contextual Rules"
+                examples="_nq36QF4vEd-jf_McM8riaQ" templates="_KbSIsF4xEd-jf_McM8riaQ">
+              <presentation xmi:id="-QjYTLW3Xujn_kkmvC7gzCQ" href="uma://-QjYTLW3Xujn_kkmvC7gzCQ#-QjYTLW3Xujn_kkmvC7gzCQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_fiedkF1wEd-8Qp4uHDzZ1w"
+                name="processing_module_specification" guid="_fiedkF1wEd-8Qp4uHDzZ1w"
+                presentationName="Processing Module Specification">
+              <presentation xmi:id="-5-XZORga3P4yV-aVlklrGw" href="uma://-5-XZORga3P4yV-aVlklrGw#-5-XZORga3P4yV-aVlklrGw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_INyoUF4vEd-jf_McM8riaQ"
+                name="cemantika_case_generating_contextual_rules" guid="_INyoUF4vEd-jf_McM8riaQ"
+                presentationName="Generating Contextual Rules"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_KbSIsF4xEd-jf_McM8riaQ"
+                name="contextual_rules" guid="_KbSIsF4xEd-jf_McM8riaQ" presentationName="Contextual Rules"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_3wzUoF4yEd-jf_McM8riaQ"
+                name="processing contextual elements" guid="_3wzUoF4yEd-jf_McM8riaQ"
+                presentationName="Processing Contextual Elements"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0IvSsF47Ed-jf_McM8riaQ"
+                name="design_dissemination_module" guid="_0IvSsF47Ed-jf_McM8riaQ"
+                presentationName="Design Dissemination Module" briefDescription="Design dissemination of CEs to other consumers in a modular way."
+                checklists="_3W17gF49Ed-jf_McM8riaQ" performedBy="_HhXz0FrlEd-s-Z5crgs3zA"
+                mandatoryInput="_SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw" output="_QAHMwF49Ed-jf_McM8riaQ">
+              <presentation xmi:id="-PI0DZEwFlivLZf4W7B1F3w" href="uma://-PI0DZEwFlivLZf4W7B1F3w#-PI0DZEwFlivLZf4W7B1F3w"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_QAHMwF49Ed-jf_McM8riaQ"
+                name="dissemination_module_specification" guid="_QAHMwF49Ed-jf_McM8riaQ"
+                presentationName="Dissemination Module Specification">
+              <presentation xmi:id="-ozc6Z857dRhdTSRUCTmSdQ" href="uma://-ozc6Z857dRhdTSRUCTmSdQ#-ozc6Z857dRhdTSRUCTmSdQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Checklist" xmi:id="_3W17gF49Ed-jf_McM8riaQ"
+                name="design_dissemination" guid="_3W17gF49Ed-jf_McM8riaQ" presentationName="Design Dissemination"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MkGG8F4_Ed-jf_McM8riaQ"
+                name="design_context_adaptation" guid="_MkGG8F4_Ed-jf_McM8riaQ" presentationName="Design Context Adaptation"
+                conceptsAndPapers="_1CKe8F5EEd-jf_McM8riaQ" performedBy="_HhXz0FrlEd-s-Z5crgs3zA"
+                mandatoryInput="_16rR4FywEd-daNeN1z0Psw _SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw"
+                output="_uS244F5FEd-jf_McM8riaQ">
+              <presentation xmi:id="-m0EqyEApjdwbKByksX6V3g" href="uma://-m0EqyEApjdwbKByksX6V3g#-m0EqyEApjdwbKByksX6V3g"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QWO70F4_Ed-jf_McM8riaQ"
+                name="design_context_presentation" guid="_QWO70F4_Ed-jf_McM8riaQ"
+                presentationName="Design Context Presentation" performedBy="_HhXz0FrlEd-s-Z5crgs3zA"
+                mandatoryInput="_16rR4FywEd-daNeN1z0Psw _SBnrQFytEd-daNeN1z0Psw _DBIg4FyoEd-daNeN1z0Psw"
+                output="_f0cSEF5GEd-jf_McM8riaQ">
+              <presentation xmi:id="-Wt-DvR9iVAyfcoIIZkZtpA" href="uma://-Wt-DvR9iVAyfcoIIZkZtpA#-Wt-DvR9iVAyfcoIIZkZtpA"/>
+              <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_CCGgIF5FEd-jf_McM8riaQ"
+                name="adaptation_aspects" guid="_CCGgIF5FEd-jf_McM8riaQ" presentationName="Adaptation Aspects"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_EyNQQF5FEd-jf_McM8riaQ"
+                name="usability_aspects" guid="_EyNQQF5FEd-jf_McM8riaQ" presentationName="Usability Aspects"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_uS244F5FEd-jf_McM8riaQ"
+                name="adaptation_modules_specification" guid="_uS244F5FEd-jf_McM8riaQ"
+                presentationName="Adaptation Modules Specification" examples="_mKg4wF5FEd-jf_McM8riaQ"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_T5C3EF5GEd-jf_McM8riaQ"
+                name="interface_aspects" guid="_T5C3EF5GEd-jf_McM8riaQ" presentationName="Interface Aspects"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_f0cSEF5GEd-jf_McM8riaQ"
+                name="presentation_specification" guid="_f0cSEF5GEd-jf_McM8riaQ" presentationName="Presentation Specification"
+                examples="_v2-hkF5GEd-jf_McM8riaQ"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_HhXz0FrlEd-s-Z5crgs3zA"
+              name="context_designer" guid="_HhXz0FrlEd-s-Z5crgs3zA" presentationName="Context Designer">
+            <presentation xmi:id="-MAU-7dpOKWtKAuC7aS1VTw" href="uma://-MAU-7dpOKWtKAuC7aS1VTw#-MAU-7dpOKWtKAuC7aS1VTw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_cRSWAFt1Ed-s-Z5crgs3zA"
+              name="task" guid="_cRSWAFt1Ed-s-Z5crgs3zA" presentationName="Task" briefDescription="Composes focus concept."
+              variabilityType="extends">
+            <presentation xmi:id="-Ro7DaYI2Nq410iRtnyG83A" href="uma://-Ro7DaYI2Nq410iRtnyG83A#-Ro7DaYI2Nq410iRtnyG83A"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_KudM0NcJEdqz_d2XWoVt6Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_d3fM4Ft3Ed-s-Z5crgs3zA"
+              name="agent" guid="_d3fM4Ft3Ed-s-Z5crgs3zA" presentationName="Agent"
+              briefDescription="Composes focus concept. " variabilityType="extends">
+            <presentation xmi:id="-LXoRG0sJak-XJmf702Amlg" href="uma://-LXoRG0sJak-XJmf702Amlg#-LXoRG0sJak-XJmf702Amlg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_zGqO0MDpEduTGJ8i4u8TMw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:TermDefinition" xmi:id="_K3KhIFt4Ed-s-Z5crgs3zA"
+              name="css" guid="_K3KhIFt4Ed-s-Z5crgs3zA" presentationName="CSS">
+            <presentation xmi:id="-uw7EDMmlV_vMqkf_ACVW4w" href="uma://-uw7EDMmlV_vMqkf_ACVW4w#-uw7EDMmlV_vMqkf_ACVW4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_lw2ekFuzEd-s-Z5crgs3zA"
+              name="focus" guid="_lw2ekFuzEd-s-Z5crgs3zA" presentationName="Focus">
+            <presentation xmi:id="-YOH9KgdVtAptu2Ib8-uUwg" href="uma://-YOH9KgdVtAptu2Ib8-uUwg#-YOH9KgdVtAptu2Ib8-uUwg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_3cfZ4FuzEd-s-Z5crgs3zA"
+              name="types_of_knowledge" guid="_3cfZ4FuzEd-s-Z5crgs3zA" presentationName="Types of Knowledge"
+              briefDescription="Separation of context acoording to a focus of attention.">
+            <presentation xmi:id="-V9zujRS_r57dLhRgWjmsKw" href="uma://-V9zujRS_r57dLhRgWjmsKw#-V9zujRS_r57dLhRgWjmsKw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_lVvHoFyqEd-daNeN1z0Psw"
+              name="contextual_element" guid="_lVvHoFyqEd-daNeN1z0Psw" presentationName="Contextual Element"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_oZ_i0FyqEd-daNeN1z0Psw"
+              name="contextual_entity" guid="_oZ_i0FyqEd-daNeN1z0Psw" presentationName="Contextual Entity"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_7GXwIFyvEd-daNeN1z0Psw"
+              name="contextual_graph" guid="_7GXwIFyvEd-daNeN1z0Psw" presentationName="Contextual Graph"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_6Svp0F1qEd-8Qp4uHDzZ1w"
+              name="contextual_relevance" guid="_6Svp0F1qEd-8Qp4uHDzZ1w" presentationName="Contextual Relevance"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Mv0CEF1rEd-8Qp4uHDzZ1w"
+              name="acquisition_mode" guid="_Mv0CEF1rEd-8Qp4uHDzZ1w" presentationName="Acquistion Mode"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_O2-i4F1rEd-8Qp4uHDzZ1w"
+              name="update_frequency" guid="_O2-i4F1rEd-8Qp4uHDzZ1w" presentationName="Update Frequency"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_wvEMwF1tEd-8Qp4uHDzZ1w"
+              name="context_architecture" guid="_wvEMwF1tEd-8Qp4uHDzZ1w" presentationName="Context Architecture">
+            <presentation xmi:id="-W_quOt5V6MG-LBdfsaBfGA" href="uma://-W_quOt5V6MG-LBdfsaBfGA#-W_quOt5V6MG-LBdfsaBfGA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_n8ThMF1uEd-8Qp4uHDzZ1w"
+              name="api" guid="_n8ThMF1uEd-8Qp4uHDzZ1w" presentationName="API" briefDescription="Application Programming Interface"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_Z3SHMF4yEd-jf_McM8riaQ"
+              name="knowledge_base" guid="_Z3SHMF4yEd-jf_McM8riaQ" presentationName="Knowledge Base"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_cXmu4F4yEd-jf_McM8riaQ"
+              name="contextual_rules" guid="_cXmu4F4yEd-jf_McM8riaQ" presentationName="Contextual Rules"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_o7SR4F4yEd-jf_McM8riaQ"
+              name="inference_engine" guid="_o7SR4F4yEd-jf_McM8riaQ" presentationName="Inference Engine"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_1CKe8F5EEd-jf_McM8riaQ"
+              name="context_sensitive_system" guid="_1CKe8F5EEd-jf_McM8riaQ" presentationName="Context Sensitive System"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_tHS14F8PEd-tYsouBkEONw"
+              name="introduction_to_css_design_process" guid="_tHS14F8PEd-tYsouBkEONw"
+              presentationName="Introduction to CSS Design Process" shapeicon="guidances/supportingmaterials/resources/micL.gif"
+              nodeicon="guidances/supportingmaterials/resources/mic.gif" variabilityType="extendsReplaces">
+            <presentation xmi:id="-uzKnaDje2OErraIe5cGEAQ" href="uma://-uzKnaDje2OErraIe5cGEAQ#-uzKnaDje2OErraIe5cGEAQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_11A6EGInEd-jf8M_sfRf4Q"
+              name="references" guid="_11A6EGInEd-jf8M_sfRf4Q" variabilityType="extendsReplaces">
+            <presentation xmi:id="-VSlaio8rMD7ztAr76TEt3Q" href="uma://-VSlaio8rMD7ztAr76TEt3Q#-VSlaio8rMD7ztAr76TEt3Q"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial"
+                href="uma://_vsno4EKmEdyrauqpmnA8jQ#__nHToFndEd2EdJKkAyeBng"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_cYcKUGItEd-jf8M_sfRf4Q"
+              name="context" guid="_cYcKUGItEd-jf8M_sfRf4Q" presentationName="Context"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_IRWq0GIuEd-jf8M_sfRf4Q"
+              name="css_design_process_roadmap" guid="_IRWq0GIuEd-jf8M_sfRf4Q" presentationName="CSS Design Process Roadmap"
+              briefDescription="This roadmap presents an overview of CSS Design Process, its purpose, and its lifecycle."/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xXszoFu4Ed-s-Z5crgs3zA"
+            name="icare_sample" guid="_xXszoFu4Ed-s-Z5crgs3zA" presentationName="ICARE System Sample"
+            briefDescription="A sample of how to use CEManTIKA do build CSS.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_4tlcEFu4Ed-s-Z5crgs3zA"
+              name="icare_enriched_use_cases_model" guid="_4tlcEFu4Ed-s-Z5crgs3zA"
+              presentationName="ICARE Enriched Use Cases Model">
+            <presentation xmi:id="-h1x-ScIGLVPzqWuaVz2lRw" href="uma://-h1x-ScIGLVPzqWuaVz2lRw#-h1x-ScIGLVPzqWuaVz2lRw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_3hVnUFyoEd-daNeN1z0Psw"
+              name="icare_context_requirements" guid="_3hVnUFyoEd-daNeN1z0Psw" presentationName="ICARE Context Requirements"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_D14lUFytEd-daNeN1z0Psw"
+              name="icare_conceptual_model" guid="_D14lUFytEd-daNeN1z0Psw" presentationName="ICARE Conceptual Model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_liKMQF1pEd-8Qp4uHDzZ1w"
+              name="icare_context_behavior_model" guid="_liKMQF1pEd-8Qp4uHDzZ1w" presentationName="ICARE Context Behavior Model"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_8l08MF1pEd-8Qp4uHDzZ1w"
+              name="icare_relevance_evaluation" guid="_8l08MF1pEd-8Qp4uHDzZ1w" presentationName="ICARE Relevance Evaluation">
+            <presentation xmi:id="-RUvkbjjfQ3-EjRD0AOqPDw" href="uma://-RUvkbjjfQ3-EjRD0AOqPDw#-RUvkbjjfQ3-EjRD0AOqPDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_OG0twF1qEd-8Qp4uHDzZ1w"
+              name="icare_acquistion_configuration" guid="_OG0twF1qEd-8Qp4uHDzZ1w"
+              presentationName="ICARE Acquisition Configuration">
+            <presentation xmi:id="-fjwL3ePAC8s3wdZt0c4HsQ" href="uma://-fjwL3ePAC8s3wdZt0c4HsQ#-fjwL3ePAC8s3wdZt0c4HsQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_LqQA0F1uEd-8Qp4uHDzZ1w"
+              name="icare_acquistion_module_specification" guid="_LqQA0F1uEd-8Qp4uHDzZ1w"
+              presentationName="ICARE Acquistion Module Specification"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_nq36QF4vEd-jf_McM8riaQ"
+              name="icare_contextual_rules" guid="_nq36QF4vEd-jf_McM8riaQ" presentationName="ICARE Contextual Rules"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_mKg4wF5FEd-jf_McM8riaQ"
+              name="icare_adaptation_modules_specification" guid="_mKg4wF5FEd-jf_McM8riaQ"
+              presentationName="ICARE Adaptation Modules Specification"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_v2-hkF5GEd-jf_McM8riaQ"
+              name="icare_presentation_specification" guid="_v2-hkF5GEd-jf_McM8riaQ"
+              presentationName="ICARE Presentation Specification"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_qyMdIGI4Ed-jf8M_sfRf4Q"
+              name="icare" guid="_qyMdIGI4Ed-jf8M_sfRf4Q" presentationName="ICARE"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qso6rVrYEd-s-Z5crgs3zA"
+          name="CapabilityPatterns" guid="_qso6rVrYEd-s-Z5crgs3zA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_dNVgwGEWEd-DPMZMcQzoLA"
+            name="Context Iteration Templates" guid="_dNVgwGEWEd-DPMZMcQzoLA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_fKuagGEWEd-DPMZMcQzoLA"
+              href="uma://_fKuagGEWEd-DPMZMcQzoLA#_fKuagGEWEd-DPMZMcQzoLA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_ir6pUGEWEd-DPMZMcQzoLA"
+              href="uma://_ir6pUGEWEd-DPMZMcQzoLA#_ir6pUGEWEd-DPMZMcQzoLA"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_oWip0GEWEd-DPMZMcQzoLA"
+              href="uma://_oWip0GEWEd-DPMZMcQzoLA#_oWip0GEWEd-DPMZMcQzoLA"/>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qso6rlrYEd-s-Z5crgs3zA"
+        name="DeliveryProcesses" guid="_qso6rlrYEd-s-Z5crgs3zA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_Q8yBQGBqEd-DPMZMcQzoLA"
+          href="uma://_Q8yBQGBqEd-DPMZMcQzoLA#_Q8yBQGBqEd-DPMZMcQzoLA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qso6r1rYEd-s-Z5crgs3zA"
+        name="ProcessContributions" guid="_qso6r1rYEd-s-Z5crgs3zA"/>
+    <bases href="uma://_4ulTgMg7EdyXeo04os5BOw#_4ulTgMg7EdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

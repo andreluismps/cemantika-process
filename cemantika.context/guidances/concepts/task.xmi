@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Ro7DaYI2Nq410iRtnyG83A"
+    name="new_concept,_cRSWAFt1Ed-s-Z5crgs3zA" guid="-Ro7DaYI2Nq410iRtnyG83A" changeDate="2010-05-09T11:21:00.813-0300"
+    changeDescription="&#x9;">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Composes &lt;a href=&quot;link_to_focus_concept&quot; target=&quot;_blank&quot;>focus&lt;/a> concept. Each one should be considered in a Focus
+        composition.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

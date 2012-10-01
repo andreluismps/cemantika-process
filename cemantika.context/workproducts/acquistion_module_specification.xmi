@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-9lYDeufeENYlbuFdYq4Y5Q"
+    name="new_artifact,_WYuyMF1tEd-8Qp4uHDzZ1w" guid="-9lYDeufeENYlbuFdYq4Y5Q" changeDate="2010-05-11T23:25:26.826-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <reasonsForNotNeeding>Applcation does not use Contextual Sources.&lt;br /></reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

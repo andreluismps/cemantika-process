@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-9NrKIyE9lJkjeHjzpMn2Pg"
+    name=",_3VWVkFyvEd-daNeN1z0Psw" guid="-9NrKIyE9lJkjeHjzpMn2Pg">
+  <sections xmi:id="_N0_6wF1mEd-8Qp4uHDzZ1w" name="Identify Contextual Nodes" guid="_N0_6wF1mEd-8Qp4uHDzZ1w"/>
+  <sections xmi:id="_PC_-8F1mEd-8Qp4uHDzZ1w" name="Identify Contextual Actions" guid="_PC_-8F1mEd-8Qp4uHDzZ1w"/>
+</org.eclipse.epf.uma:TaskDescription>

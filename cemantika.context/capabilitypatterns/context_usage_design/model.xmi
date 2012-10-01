@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_oZWtQWEWEd-DPMZMcQzoLA"
+      guid="_oZWtQWEWEd-DPMZMcQzoLA">
+    <resourceDescriptors xmi:id="_oZXUUGEWEd-DPMZMcQzoLA" id="-fA1EGRIjrrhqcpOoDyf2kA"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_oWip0GEWEd-DPMZMcQzoLA" name="context_usage_design"
+      guid="_oWip0GEWEd-DPMZMcQzoLA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZFpsIGE2Ed-Pefk4w1orug"
+        name="Context Usage Design" guid="_ZFpsIGE2Ed-Pefk4w1orug">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZFqTMGE2Ed-Pefk4w1orug"
+          name="Context Usage Design" guid="_ZFqTMGE2Ed-Pefk4w1orug" presentationName="Context Usage Design"
+          superActivities="_oWip0WEWEd-DPMZMcQzoLA" breakdownElements="_4A2wgGFsEd-Pefk4w1orug _4A2wgWFsEd-Pefk4w1orug _4A3-oGFsEd-Pefk4w1orug _4A3-oWFsEd-Pefk4w1orug _4A4lsGFsEd-Pefk4w1orug _4A4lsWFsEd-Pefk4w1orug _4A4lsmFsEd-Pefk4w1orug _4A4ls2FsEd-Pefk4w1orug _4A4ltGFsEd-Pefk4w1orug _kUHjUGFwEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4A2wgGFsEd-Pefk4w1orug"
+          name="design_context_adaptation" guid="_4A2wgGFsEd-Pefk4w1orug" presentationName="Design Context Adaptation"
+          isOptional="true" superActivities="_ZFqTMGE2Ed-Pefk4w1orug" additionallyPerformedBy="_4A3-oWFsEd-Pefk4w1orug"
+          mandatoryInput="_4A4lsGFsEd-Pefk4w1orug _4A4lsWFsEd-Pefk4w1orug _4A4lsmFsEd-Pefk4w1orug"
+          output="_4A4ls2FsEd-Pefk4w1orug" performedPrimarilyBy="_4A3-oGFsEd-Pefk4w1orug">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_MkGG8F4_Ed-jf_McM8riaQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4A2wgWFsEd-Pefk4w1orug"
+          name="design_context_presentation" guid="_4A2wgWFsEd-Pefk4w1orug" presentationName="Design Context Presentation"
+          isOptional="true" superActivities="_ZFqTMGE2Ed-Pefk4w1orug" additionallyPerformedBy="_4A3-oWFsEd-Pefk4w1orug"
+          mandatoryInput="_4A4lsGFsEd-Pefk4w1orug _4A4lsWFsEd-Pefk4w1orug _4A4lsmFsEd-Pefk4w1orug"
+          output="_4A4ltGFsEd-Pefk4w1orug" performedPrimarilyBy="_4A3-oGFsEd-Pefk4w1orug">
+        <Task href="uma://_qso6oFrYEd-s-Z5crgs3zA#_QWO70F4_Ed-jf_McM8riaQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4A3-oGFsEd-Pefk4w1orug"
+          name="context_designer" guid="_4A3-oGFsEd-Pefk4w1orug" presentationName="Context Designer"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug" modifies="_4A4ls2FsEd-Pefk4w1orug _4A4ltGFsEd-Pefk4w1orug">
+        <Role href="uma://_qso6oFrYEd-s-Z5crgs3zA#_HhXz0FrlEd-s-Z5crgs3zA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4A3-oWFsEd-Pefk4w1orug"
+          name="architect" guid="_4A3-oWFsEd-Pefk4w1orug" presentationName="Architect"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4A4lsGFsEd-Pefk4w1orug"
+          name="context_behavior_model" guid="_4A4lsGFsEd-Pefk4w1orug" presentationName="Context Behavior Model"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_16rR4FywEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4A4lsWFsEd-Pefk4w1orug"
+          name="context_conceptual_model" guid="_4A4lsWFsEd-Pefk4w1orug" presentationName="Context Conceptual Model"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_SBnrQFytEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4A4lsmFsEd-Pefk4w1orug"
+          name="context_requirements" guid="_4A4lsmFsEd-Pefk4w1orug" presentationName="Context Requirements"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_DBIg4FyoEd-daNeN1z0Psw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4A4ls2FsEd-Pefk4w1orug"
+          name="adaptation_modules_specification" guid="_4A4ls2FsEd-Pefk4w1orug" presentationName="Adaptation Modules Specification"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_uS244F5FEd-jf_McM8riaQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4A4ltGFsEd-Pefk4w1orug"
+          name="presentation_specification" guid="_4A4ltGFsEd-Pefk4w1orug" presentationName="Presentation Specification"
+          isPlanned="false" superActivities="_ZFqTMGE2Ed-Pefk4w1orug">
+        <WorkProduct href="uma://_qso6oFrYEd-s-Z5crgs3zA#_f0cSEF5GEd-jf_McM8riaQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kUHjUGFwEd-Pefk4w1orug"
+          name="New Task Descriptor" guid="_kUHjUGFwEd-Pefk4w1orug" presentationName="Get Behavior Model"
+          superActivities="_ZFqTMGE2Ed-Pefk4w1orug"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oWip0WEWEd-DPMZMcQzoLA"
+        name="context_usage_design" guid="_oWip0WEWEd-DPMZMcQzoLA" presentationName="Context Usage Design"
+        briefDescription="This context usage iteration template defines the activities (and associated roles and work  products) performed in a typical iteration in the Context Usage phase."
+        breakdownElements="_ZFqTMGE2Ed-Pefk4w1orug">
+      <presentation xmi:id="-fA1EGRIjrrhqcpOoDyf2kA" href="uma://-fA1EGRIjrrhqcpOoDyf2kA#-fA1EGRIjrrhqcpOoDyf2kA"/>
+      <defaultContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

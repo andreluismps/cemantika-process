@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-b9UZMAgIMKgPrBny-gm3VQ"
+    name=",_MJr5YF1vEd-8Qp4uHDzZ1w" guid="-b9UZMAgIMKgPrBny-gm3VQ" changeDate="2010-05-12T22:12:09.646-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>In this activity, the Context Designer should identify, for each CE, whether it is necessary to perform any processing or
+        inferencing to determine its value. Behaviors defined in the Context Behavior Model should be translated into contextual
+        rules. The designer should identify what kind of inferencing will be needed and in this case what existing inference engine
+        better applies. Contextual rules should be translated into the format required by the inference engine. Besides, the
+        inference engine should be configured to match the CSS processing requirements.&lt;br /></mainDescription>
+  <sections xmi:id="_DNZtEF4uEd-jf_McM8riaQ" name="Identify what kind of inference will be needed"
+      guid="_DNZtEF4uEd-jf_McM8riaQ">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_6A7WcF4tEd-jf_McM8riaQ" name="Translate behavior define in the Context Behavior Model to contextual rules"
+      guid="_6A7WcF4tEd-jf_McM8riaQ">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_pVYmMF4tEd-jf_McM8riaQ" name="Identify which Contextual Elements needs processing or inferencing"
+      guid="_pVYmMF4tEd-jf_McM8riaQ">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_Jjg6kF4uEd-jf_McM8riaQ" name="Choose infere engine" guid="_Jjg6kF4uEd-jf_McM8riaQ">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_QNYxkF4uEd-jf_McM8riaQ" name="Translate Contextual Rules into the format required by the inference engine"
+      guid="_QNYxkF4uEd-jf_McM8riaQ">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>This activity has the objective to specify and identify the elements related to CE processing, i. e., derived CEs
+        specification, CE knowledge base, inference rules and inference engine.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

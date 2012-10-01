@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-Wt-DvR9iVAyfcoIIZkZtpA"
+    name=",_QWO70F4_Ed-jf_McM8riaQ" guid="-Wt-DvR9iVAyfcoIIZkZtpA" changeDate="2010-05-13T01:14:08.507-0300">
+  <mainDescription>The Context Designer should decide which CEs should be presented, when and how the presentation should occur. Issues
+        related to human cognition should be considered, to avoid intrusiveness or information overload. The literature of
+        information awareness provides many examples about how to present contextual information to improve cognition.&lt;br /></mainDescription>
+  <purpose>The purpose of this activity is to design the presentation of the managed CE to the CSS Agents in order to enrich their
+        knowledge about the Task being executed.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

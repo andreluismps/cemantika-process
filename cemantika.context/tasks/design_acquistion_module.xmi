@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-OymSZI8LgILR5kw5rM9M3A"
+    name=",_zPsL4F1sEd-8Qp4uHDzZ1w" guid="-OymSZI8LgILR5kw5rM9M3A" changeDate="2010-05-11T23:21:23.775-0300">
+  <mainDescription>According to the &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../cemantika.context/guidances/supportingmaterials/context_architecture_63B9F8E4.html&quot;
+        guid=&quot;_wvEMwF1tEd-8Qp4uHDzZ1w&quot;>Context Architecture&lt;/a>, each context source should have an &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../cemantika.context/guidances/concepts/api_F95B2426.html&quot; guid=&quot;_n8ThMF1uEd-8Qp4uHDzZ1w&quot;>API&lt;/a> to allow the
+        access to its internal functionalities, and an Adapter to enable the communication between the context source and the
+        context management module. In this sense, for each identified context source, the Context Designer should execute one of
+        the following tasks:&lt;br />
+         
+        &lt;ol>
+            &lt;li>
+                Design a Context Source Adapter in the case that there is already an API to access the context source contents and
+                it is only necessary to translate the information from the context source to the CSS;
+            &lt;/li>
+            &lt;li>
+                Design a Context Source API and Adapter, when the context source exists, but there is not a modularized way to
+                access its internal information; or
+            &lt;/li>
+            &lt;li>
+                Design a new Context Source, when no context source was found to provide that CE.
+            &lt;/li>
+        &lt;/ol>
+        An important characteristic of a CSS is that they have the potential to diminish the interaction between systems and users
+        by acquiring, as much information as possible, from different sources others than the user. For example, a system may ask
+        directly the user about his/her current location. However, a context-sensitive system tries to acquire this information
+        using location sensors combined with reasoning mechanisms. In this light, a CSS is expected to interact with several
+        different, and possibly heterogenous, context sources.&lt;br />
+         &lt;br />
+         A CSS Design Process 97 Context acquisition services should be constantly available. These services should, preferably, be
+        implemented independently from the CSS, so different applications could share information without worrying about how the CE
+        values are obtained. By doing so, a community of CSS designers and context sources developers could publish the assets
+        related to their context sources (e.g. documentation, source code, software components, models, CEs catalog) in a Context
+        Sources Yellow Pages service. Such a service could guide other CSS designers on specifying their acquisition modules.&lt;br />
+         &lt;br /></mainDescription>
+  <sections xmi:id="_xABvAF1vEd-8Qp4uHDzZ1w" name="Design new Context Sources" guid="_xABvAF1vEd-8Qp4uHDzZ1w">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_yv80gF1vEd-8Qp4uHDzZ1w" name="Design Context Sources API" guid="_yv80gF1vEd-8Qp4uHDzZ1w">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_0ruksF1vEd-8Qp4uHDzZ1w" name="Design Context Source Adapters"
+      guid="_0ruksF1vEd-8Qp4uHDzZ1w">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>The objective of this activity is to design the elements responsible for the context acquisition (e. g. context sources
+        APIs and adapters), indication how the context acquistion should be implemented.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-8dCWo_j1LTNd02HuEfrXRw"
+    name="new_supporting_material,_L-JFoFrbEd-s-Z5crgs3zA" guid="-8dCWo_j1LTNd02HuEfrXRw"
+    changeDate="2010-05-11T23:47:49.173-0300" version="0.1">
+  <mainDescription>This work uses CEManTIKA context framework for designing context-sensitive systems (CSS) proposed by Prof.&amp;nbsp;Vaninha
+        Vieira (UFBA) and enriched by Raphael Freire de Araújo Patrício, during her PhD work (&lt;a href=&quot;http://www.cin.ufpe.br&quot;
+        target=&quot;_blank&quot;>UFPE&lt;/a>) avaiable at &lt;a
+        href=&quot;http://cemantika.svn.sourceforge.net/viewvc/cemantika/trunk/docs/2008_Thesis_Vieira_CEManTIKA.pdf?view=log&quot;
+        target=&quot;_blank&quot;>sourceforge&lt;/a>.&lt;br />
+         &lt;br />
+         This process is part of tools to develop CSS avaiable at &lt;a href=&quot;https://sourceforge.net/projects/cemantika/&quot;
+        target=&quot;_blank&quot;>CEManTIKA&lt;/a> project on sourceforce.&lt;br />
+         &lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

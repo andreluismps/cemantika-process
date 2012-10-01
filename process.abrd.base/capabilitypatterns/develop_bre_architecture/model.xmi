@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2iD68crsEd2sX5aq6os4oQ"
+      guid="_2iD68crsEd2sX5aq6os4oQ">
+    <resourceDescriptors xmi:id="_2iD68srsEd2sX5aq6os4oQ" id="-LPRqcx3TAg7m-fqsDb-Qdg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2_QBQH_BEd2YWI_0AZcMOA" name="develop_bre_architecture"
+      guid="_2_QBQH_BEd2YWI_0AZcMOA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4s7EAH_BEd2YWI_0AZcMOA"
+        name="develop_architecture" guid="_4s7EAH_BEd2YWI_0AZcMOA" presentationName="Develop Business Rule Application Architecture"
+        superActivities="_2_QBQX_BEd2YWI_0AZcMOA" output="_4tXv8H_BEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_4tN-8H_BEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_nOQHsAp6EdyPCr4G1Tb79A"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_RMRccChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_yIEJ4Ap6EdyPCr4G1Tb79A"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_r5SRoChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_venZkChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_yFzeQChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_04xVIChaEd2bfOOTyXGWkw"/>
+      <selectedSteps href="uma://-AUjqKQk_naPhdZWAQR-Mmg#_27c-kChaEd2bfOOTyXGWkw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4tN-8H_BEd2YWI_0AZcMOA"
+        name="rule_architect" guid="_4tN-8H_BEd2YWI_0AZcMOA" presentationName="Rule Architect"
+        isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA" modifies="_4tXv8H_BEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_JkVWIApyEdyKK5Go8zejMw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4tXv8H_BEd2YWI_0AZcMOA"
+        name="decision_service_architecture" guid="_4tXv8H_BEd2YWI_0AZcMOA" presentationName="Decision Service Architecture"
+        isPlanned="false" superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_6BE7QAp_EdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5BMD0H_BEd2YWI_0AZcMOA"
+        name="design_reference_data_integration" guid="_5BMD0H_BEd2YWI_0AZcMOA" presentationName="Design Integration to Reference Data"
+        superActivities="_2_QBQX_BEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_HMQasGDFEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5QiHYH_BEd2YWI_0AZcMOA"
+        name="design_models_for_bre" guid="_5QiHYH_BEd2YWI_0AZcMOA" presentationName="Design Business Object Models for Rule Engine Processing"
+        superActivities="_2_QBQX_BEd2YWI_0AZcMOA" performedPrimarilyBy="_4tN-8H_BEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_lYC2IGDAEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_EAYVQH_CEd2YWI_0AZcMOA"
+        name="integrate_bre" guid="_EAYVQH_CEd2YWI_0AZcMOA" presentationName="Integrate BRE with service layer"
+        superActivities="_2_QBQX_BEd2YWI_0AZcMOA" performedPrimarilyBy="_4tN-8H_BEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_6-p2EH_BEd2YWI_0AZcMOA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2_QBQX_BEd2YWI_0AZcMOA"
+        name="develop_bre_architecture" guid="_2_QBQX_BEd2YWI_0AZcMOA" presentationName="Develop BRMS Integration Architecture"
+        breakdownElements="_4s7EAH_BEd2YWI_0AZcMOA _4tN-8H_BEd2YWI_0AZcMOA _4tXv8H_BEd2YWI_0AZcMOA _5BMD0H_BEd2YWI_0AZcMOA _5QiHYH_BEd2YWI_0AZcMOA _EAYVQH_CEd2YWI_0AZcMOA">
+      <presentation xmi:id="-LPRqcx3TAg7m-fqsDb-Qdg" href="uma://-LPRqcx3TAg7m-fqsDb-Qdg#-LPRqcx3TAg7m-fqsDb-Qdg"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_PFU-AMVeEd2n6fDcl3UsZg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-OG3CmcvrFQXo6amUHX9GLA"
+    name=",_maj7QF1mEd-8Qp4uHDzZ1w" guid="-OG3CmcvrFQXo6amUHX9GLA" changeDate="2010-05-11T22:35:59.401-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Contextual elements are retrivied from Contextual Sources. This tasks specifies which values of acquistion mode and update
+        frequency parameters are required for each Contextual Elements.&lt;br /></mainDescription>
+  <sections xmi:id="_85u3AF1mEd-8Qp4uHDzZ1w" name="Identify Context Sources" guid="_85u3AF1mEd-8Qp4uHDzZ1w">
+    <sectionDescription>Identify Context Sources that will provide Context Elements values.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_CxeGcF1nEd-8Qp4uHDzZ1w" name="Identify Acquisition Mode" guid="_CxeGcF1nEd-8Qp4uHDzZ1w">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_FzfF8F1nEd-8Qp4uHDzZ1w" name="Identify Update Frequency" guid="_FzfF8F1nEd-8Qp4uHDzZ1w">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_SLu1AF1nEd-8Qp4uHDzZ1w" name="Write matching expression (Optional)"
+      guid="_SLu1AF1nEd-8Qp4uHDzZ1w">
+    <sectionDescription>Matching expression is responsible for conversions between acquisition source values and application values. For example,
+        the code below transforms MSN status in a float value expected by the application.&lt;br />
+         &lt;br />
+         &lt;span style=&quot;font-style: italic;&quot;>if Status = 'Online' then&lt;/span>&lt;br style=&quot;font-style: italic;&quot; />
+         &lt;span style=&quot;font-style: italic;&quot;>&amp;nbsp;&amp;nbsp; availability = 0.8;&lt;/span>&lt;br style=&quot;font-style: italic;&quot; />
+         &lt;span style=&quot;font-style: italic;&quot;>if Status = 'Busy' then&lt;/span>&lt;br style=&quot;font-style: italic;&quot; />
+         &lt;span style=&quot;font-style: italic;&quot;>&amp;nbsp;&amp;nbsp; availability = 0.5;&lt;/span>&lt;br style=&quot;font-style: italic;&quot; />
+         &lt;span style=&quot;font-style: italic;&quot;>if Status = 'Away' or 'Offline' then&lt;/span>&lt;br style=&quot;font-style: italic;&quot; />
+         &lt;span style=&quot;font-style: italic;&quot;>&amp;nbsp;&amp;nbsp; availability = 0.2;&lt;/span>&lt;br />
+         &lt;br />
+         &lt;br />
+         &lt;br />
+         &lt;br /></sectionDescription>
+  </sections>
+  <purpose>The objective of this activity is to specify the acquisition parameters for each identified CE.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2iW14MrsEd2sX5aq6os4oQ"
+      guid="_2iW14MrsEd2sX5aq6os4oQ">
+    <resourceDescriptors xmi:id="_2iW14crsEd2sX5aq6os4oQ" id="-Cr6J3-t_GtgvW9ciCDH6Gg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2o6S8H_DEd2YWI_0AZcMOA" name="define_rule_governance"
+      guid="_2o6S8H_DEd2YWI_0AZcMOA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_BH_DEd2YWI_0AZcMOA"
+        name="define_rule_life_cycle" guid="_4hT_BH_DEd2YWI_0AZcMOA" presentationName="Define Rule Life Cycle"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" output="_4hT_Dn_DEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YFH7Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_BX_DEd2YWI_0AZcMOA"
+        name="define_ruleset_life_cycle" guid="_4hT_BX_DEd2YWI_0AZcMOA" presentationName="Define Rule Set Life Cycle "
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_CH_DEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_RBu1YVH7Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4hT_Bn_DEd2YWI_0AZcMOA"
+        name="maintain_rules" guid="_4hT_Bn_DEd2YWI_0AZcMOA" presentationName="Maintain Rules"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_C3_DEd2YWI_0AZcMOA"
+        mandatoryInput="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA" output="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_4hT_CX_DEd2YWI_0AZcMOA _4hT_Cn_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_z9ORcKnrEdyzmOHu2kw1UA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_B3_DEd2YWI_0AZcMOA"
+        name="rule_architect" guid="_4hT_B3_DEd2YWI_0AZcMOA" presentationName="Rule Architect"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_wD8ycKy4Ed2aLdlF48Bk1g _4hT_Dn_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_JkVWIApyEdyKK5Go8zejMw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_CH_DEd2YWI_0AZcMOA"
+        name="rule_administrator" guid="_4hT_CH_DEd2YWI_0AZcMOA" presentationName="Rule Administrator"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4QqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_CX_DEd2YWI_0AZcMOA"
+        name="rule_analyst" guid="_4hT_CX_DEd2YWI_0AZcMOA" presentationName="Rule Analyst"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4gqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_Cn_DEd2YWI_0AZcMOA"
+        name="rule_writer" guid="_4hT_Cn_DEd2YWI_0AZcMOA" presentationName="Rule Writer"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII4wqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4hT_C3_DEd2YWI_0AZcMOA"
+        name="business_analyst" guid="_4hT_C3_DEd2YWI_0AZcMOA" presentationName="Business Analyst"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_Xh-X4AqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_DH_DEd2YWI_0AZcMOA"
+        name="brms_organization_chart" guid="_4hT_DH_DEd2YWI_0AZcMOA" presentationName="Organization Chart"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#__hcZYGDrEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_DX_DEd2YWI_0AZcMOA"
+        name="rule_governance_actors" guid="_4hT_DX_DEd2YWI_0AZcMOA" presentationName="Rule Governance Actors"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_VzXG0GDtEdyKlZvvtnMrMg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_Dn_DEd2YWI_0AZcMOA"
+        name="rule_life_cycle" guid="_4hT_Dn_DEd2YWI_0AZcMOA" presentationName="Rule Life Cycle"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_DmUjsFH8Edy72tV0zV7--Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_D3_DEd2YWI_0AZcMOA"
+        name="ruleset" guid="_4hT_D3_DEd2YWI_0AZcMOA" presentationName="Rule Set"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_vjWPcDzEEdyA6a_I80swHw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4hT_EH_DEd2YWI_0AZcMOA"
+        name="rule_repository_in_db" guid="_4hT_EH_DEd2YWI_0AZcMOA" presentationName="Rule Repository in DB"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_jqxtYFttEdykEsBjRsVfZw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_8vcLgKvlEd2Pv_z50upsAg"
+        name="develop_organization_map" guid="_8vcLgKvlEd2Pv_z50upsAg" presentationName="Develop Organization Map"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA"
+        output="_4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA" performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_IFeJQKveEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#__8xccKvgEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#_MJLScKviEd2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-AnRIdz0rPYyQVyzGVBxSqA#_U7ZWAKviEd2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_GvZGIKvpEd2Pv_z50upsAg"
+        name="rule_steward" guid="_GvZGIKvpEd2Pv_z50upsAg" presentationName="Rule Steward"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA" modifies="_4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_bYUkIJyiEd23W8_-Tub7Ww"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1AufcKv9Ed2Pv_z50upsAg"
+        name="define_ruleset_ownership" guid="_1AufcKv9Ed2Pv_z50upsAg" presentationName="Define Rule Set Ownership and Access Control"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_GvZGIKvpEd2Pv_z50upsAg"
+        output="_wD8ycKy4Ed2aLdlF48Bk1g" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_O93X4KvzEd2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_c83oYKv-Ed2Pv_z50upsAg"
+        name="define_policy_change_templates" guid="_c83oYKv-Ed2Pv_z50upsAg" presentationName="Define Business Policy Change Templates"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_d6VEMKzEEd2aLdlF48Bk1g"
+        performedPrimarilyBy="_4hT_CX_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_tzUvgKv7Ed2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_wGoukKv-Ed2Pv_z50upsAg"
+        name="plan_deployment" guid="_wGoukKv-Ed2Pv_z50upsAg" presentationName="Plan Deployment"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" performedPrimarilyBy="_4hT_B3_DEd2YWI_0AZcMOA">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_E5968Kv8Ed2Pv_z50upsAg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_49L4gKv-Ed2Pv_z50upsAg"
+        name="develop_process_maps" guid="_49L4gKv-Ed2Pv_z50upsAg" presentationName="Develop Process Maps"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_deyUkKv8Ed2Pv_z50upsAg"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_9jqRIKy-Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_K4JmAKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_aZ6DsKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_lmDzEKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#_rMlWsKy_Ed2aLdlF48Bk1g"/>
+      <selectedSteps href="uma://-aim_xTKZyZptD_PbMWAtVA#__pNL4Ky_Ed2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_wD8ycKy4Ed2aLdlF48Bk1g"
+        name="rule_set_table" guid="_wD8ycKy4Ed2aLdlF48Bk1g" presentationName="Rule Set Table"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <WorkProduct href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_gE600Ky2Ed2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_b0uJ8KzBEd2aLdlF48Bk1g"
+        name="monitor_improve_process" guid="_b0uJ8KzBEd2aLdlF48Bk1g" presentationName="Monitor and Improve Process"
+        superActivities="_2o6S8X_DEd2YWI_0AZcMOA" additionallyPerformedBy="_4hT_B3_DEd2YWI_0AZcMOA"
+        performedPrimarilyBy="_GvZGIKvpEd2Pv_z50upsAg">
+      <Task href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_w0x40KzAEd2aLdlF48Bk1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_d6VEMKzEEd2aLdlF48Bk1g"
+        name="Subject Matter Expert" guid="_d6VEMKzEEd2aLdlF48Bk1g" presentationName="Subject Matter Expert"
+        isPlanned="false" superActivities="_2o6S8X_DEd2YWI_0AZcMOA">
+      <Role href="uma://_XLuWYHn8Ed2ozs6whO3m5w#_XiII5AqBEdyPCr4G1Tb79A"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2o6S8X_DEd2YWI_0AZcMOA"
+        name="define_rule_governance" guid="_2o6S8X_DEd2YWI_0AZcMOA" presentationName="Define Rule Governance"
+        breakdownElements="_8vcLgKvlEd2Pv_z50upsAg _1AufcKv9Ed2Pv_z50upsAg _c83oYKv-Ed2Pv_z50upsAg _4hT_BH_DEd2YWI_0AZcMOA _4hT_BX_DEd2YWI_0AZcMOA _wGoukKv-Ed2Pv_z50upsAg _49L4gKv-Ed2Pv_z50upsAg _b0uJ8KzBEd2aLdlF48Bk1g _4hT_Bn_DEd2YWI_0AZcMOA _GvZGIKvpEd2Pv_z50upsAg _4hT_B3_DEd2YWI_0AZcMOA _4hT_CH_DEd2YWI_0AZcMOA _4hT_CX_DEd2YWI_0AZcMOA _4hT_Cn_DEd2YWI_0AZcMOA _4hT_C3_DEd2YWI_0AZcMOA _d6VEMKzEEd2aLdlF48Bk1g _4hT_DH_DEd2YWI_0AZcMOA _4hT_DX_DEd2YWI_0AZcMOA _4hT_Dn_DEd2YWI_0AZcMOA _4hT_D3_DEd2YWI_0AZcMOA _4hT_EH_DEd2YWI_0AZcMOA _wD8ycKy4Ed2aLdlF48Bk1g">
+      <presentation xmi:id="-Cr6J3-t_GtgvW9ciCDH6Gg" href="uma://-Cr6J3-t_GtgvW9ciCDH6Gg#-Cr6J3-t_GtgvW9ciCDH6Gg"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_PFU-AMVeEd2n6fDcl3UsZg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

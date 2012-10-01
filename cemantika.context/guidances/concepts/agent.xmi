@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-LXoRG0sJak-XJmf702Amlg"
+    name="new_concept,_d3fM4Ft3Ed-s-Z5crgs3zA" guid="-LXoRG0sJak-XJmf702Amlg" changeDate="2010-05-09T11:33:51.593-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>An agent is a derivation of Actor concept. In a &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../../cemantika.context/guidances/termdefinitions/css_895AA49D.html&quot; guid=&quot;_K3KhIFt4Ed-s-Z5crgs3zA&quot;>CSS&lt;/a>
+        multiple agents execute &lt;a class=&quot;elementLink&quot; href=&quot;./../../../cemantika.context/guidances/concepts/task_F06C390.html&quot;
+        guid=&quot;_cRSWAFt1Ed-s-Z5crgs3zA&quot;>Task&lt;/a> in a different way.&lt;br />
+         Composes &lt;a class=&quot;elementLink&quot; href=&quot;./../../../cemantika.context/guidances/concepts/focus_C05CC899.html&quot;
+        guid=&quot;_lw2ekFuzEd-s-Z5crgs3zA&quot;>Focus&lt;/a> concept. Each one should be considered in a Focus composition.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

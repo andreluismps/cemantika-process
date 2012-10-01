@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.0" xmlns:epf="http://www.eclipse.org/epf"
+    epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_KdJuQNOFEdyqlogshP8l4g"
+      guid="_KdJuQNOFEdyqlogshP8l4g">
+    <resourceDescriptors xmi:id="_KdJuQdOFEdyqlogshP8l4g" id="-VFp5B68iro5ga1pz4nbQFw"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_KaeNsNOFEdyqlogshP8l4g" name="develop_architecture"
+      guid="_KaeNsNOFEdyqlogshP8l4g">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_TV_k8NOKEdyqlogshP8l4g"
+        name="develop_solution" guid="_TV_k8NOKEdyqlogshP8l4g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_TV_k8dOKEdyqlogshP8l4g"
+          name="develop_solution" guid="_TV_k8dOKEdyqlogshP8l4g" superActivities="_KaeNsdOFEdyqlogshP8l4g"
+          variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern"
+            href="uma://_RXGooNOFEdyqlogshP8l4g#_RXGoodOFEdyqlogshP8l4g"/>
+      </processElements>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Ei9OcdOKEdyqlogshP8l4g"
+        name="architect" guid="_Ei9OcdOKEdyqlogshP8l4g" presentationName="Architect"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g" modifies="_EjG_cNOKEdyqlogshP8l4g"
+        responsibleFor="_EjG_cNOKEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_EjG_cNOKEdyqlogshP8l4g"
+        name="architecture_notebook" guid="_EjG_cNOKEdyqlogshP8l4g" presentationName="Architecture Notebook"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_4gaS4LPREduocbW-TPTq7A#_0XAf0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_6RuKMN_1EdyOsumnGvWsEg"
+        name="refine_the_arch" guid="_6RuKMN_1EdyOsumnGvWsEg" presentationName="Refine the Architecture"
+        isPlanned="true" superActivities="_KaeNsdOFEdyqlogshP8l4g" additionallyPerformedBy="_6RuKMd_1EdyOsumnGvWsEg _6RuKMt_1EdyOsumnGvWsEg"
+        mandatoryInput="_6R37MN_1EdyOsumnGvWsEg _EjG_cNOKEdyqlogshP8l4g" optionalInput="_6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg"
+        output="_EjG_cNOKEdyqlogshP8l4g" performedPrimarilyBy="_Ei9OcdOKEdyqlogshP8l4g">
+      <Task href="uma://_4gaS4LPREduocbW-TPTq7A#_0gRJgMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_l92AYNpaEdyP58ppo1Ieaw"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_G_k1kBaqEduSTJywppIxVQ"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_0qoQ8CikEduQBKSg5n118w"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_82iI0FHOEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_Vdln8MP3EdmWKcx6ixEiwg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_GFLpsFHPEd2zrOgIte8oWg"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_xIIVkMUbEdu5GrwIlTJV7g"/>
+      <selectedSteps href="uma://_rUis8LBKEdm7Eph_l9Cn9w#_pyyVoFHPEd2zrOgIte8oWg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6RuKMd_1EdyOsumnGvWsEg"
+        name="developer" guid="_6RuKMd_1EdyOsumnGvWsEg" presentationName="Developer"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_6RuKMt_1EdyOsumnGvWsEg"
+        name="project_manager" guid="_6RuKMt_1EdyOsumnGvWsEg" presentationName="Project Manager"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37MN_1EdyOsumnGvWsEg"
+        name="technical_specification_slot" guid="_6R37MN_1EdyOsumnGvWsEg" presentationName="[Technical Specification]"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Md_1EdyOsumnGvWsEg"
+        name="software_design_slot" guid="_6R37Md_1EdyOsumnGvWsEg" presentationName="[Software Design]"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_6R37Mt_1EdyOsumnGvWsEg"
+        name="software_implementation_slot" guid="_6R37Mt_1EdyOsumnGvWsEg" presentationName="[Software Implementation]"
+        isPlanned="false" superActivities="_KaeNsdOFEdyqlogshP8l4g">
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KaeNsdOFEdyqlogshP8l4g"
+        name="develop_architecture" guid="_KaeNsdOFEdyqlogshP8l4g" presentationName="Develop the Architecture"
+        briefDescription="Develop the architecturally significant requirements prioritized for this iteration."
+        breakdownElements="_Ei9OcdOKEdyqlogshP8l4g _EjG_cNOKEdyqlogshP8l4g _TV_k8dOKEdyqlogshP8l4g _6RuKMN_1EdyOsumnGvWsEg _6RuKMd_1EdyOsumnGvWsEg _6RuKMt_1EdyOsumnGvWsEg _6R37MN_1EdyOsumnGvWsEg _6R37Md_1EdyOsumnGvWsEg _6R37Mt_1EdyOsumnGvWsEg">
+      <presentation xmi:id="-VFp5B68iro5ga1pz4nbQFw" href="uma://-VFp5B68iro5ga1pz4nbQFw#-VFp5B68iro5ga1pz4nbQFw"/>
+      <defaultContext href="uma://_gumPEOdPEd2auIPznZi4lQ#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+      <validContext href="uma://_gumPEOdPEd2auIPznZi4lQ#_QN3nQBEHEdyM7Iu0sxfrPA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

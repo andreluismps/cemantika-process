@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-h1x-ScIGLVPzqWuaVz2lRw"
+    name="new_example,_4tlcEFu4Ed-s-Z5crgs3zA" guid="-h1x-ScIGLVPzqWuaVz2lRw">
+  <mainDescription>&lt;img alt=&quot;Enriched Use Cases Model&quot; src=&quot;resources/enriched_use_cases_model-academic_system.jpg&quot; height=&quot;416&quot;
+        width=&quot;600&quot; />&lt;br /></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

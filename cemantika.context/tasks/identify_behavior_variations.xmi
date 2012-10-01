@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-BLQvhTaRgVpJdfGlJW4V0A"
+    name=",_fYU1YFynEd-daNeN1z0Psw" guid="-BLQvhTaRgVpJdfGlJW4V0A" changeDate="2010-05-10T23:49:51.746-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <sections xmi:id="_c0Nn8FypEd-daNeN1z0Psw" name="Select focus" guid="_c0Nn8FypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_enRhAFypEd-daNeN1z0Psw" name="Identify awareness Behaviors" guid="_enRhAFypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_iD-4cFypEd-daNeN1z0Psw" name="Identify Adaptation Behaviors"
+      guid="_iD-4cFypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_jnUTcFypEd-daNeN1z0Psw" name="Identify Personalization Behaviors"
+      guid="_jnUTcFypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_ksoVsFypEd-daNeN1z0Psw" name="Identify Assistance Behaviors"
+      guid="_ksoVsFypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_p8lzcFypEd-daNeN1z0Psw" name="Identify Perception Behaviors"
+      guid="_p8lzcFypEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>The objective of this activity is to identify, given a focus, which variations are expected in the CSS behavior, and which
+        factors affect these variations.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

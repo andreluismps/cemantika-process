@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-5gZ3n7q8qX8ol3gqnevb0g"
+    name="new_artifact,_dUc_gFyvEd-daNeN1z0Psw" guid="-5gZ3n7q8qX8ol3gqnevb0g" changeDate="2010-05-11T00:45:29.406-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <impactOfNotHaving>Misundertang between end users and designers&lt;br /></impactOfNotHaving>
+  <representationOptions>Report with list of relevances.&lt;br /></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

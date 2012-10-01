@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-HskSgRRz6Lw_d0aT7fJhuw"
+    name=",_hzM74Ft0Ed-s-Z5crgs3zA" guid="-HskSgRRz6Lw_d0aT7fJhuw" changeDate="2010-05-10T23:41:52.027-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <sections xmi:id="_8Gk_AFymEd-daNeN1z0Psw" name="Identify context requirements from application requirements"
+      guid="_8Gk_AFymEd-daNeN1z0Psw">
+    <sectionDescription>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_EIyh8FynEd-daNeN1z0Psw" name="Indicate focus association between Agent and Task"
+      guid="_EIyh8FynEd-daNeN1z0Psw">
+    <sectionDescription>Incate that Agent uses de CSS to execute that Task.&lt;br /></sectionDescription>
+  </sections>
+  <purpose>The objective of the Identify Focus activity is to recognize, from the application business requirements, which &lt;a
+        class=&quot;elementLink&quot; href=&quot;./../../cemantika.context/guidances/concepts/task_F06C390.html&quot;
+        guid=&quot;_cRSWAFt1Ed-s-Z5crgs3zA&quot;>Task&lt;/a> and &lt;a class=&quot;elementLink&quot;
+        href=&quot;./../../cemantika.context/guidances/concepts/agent_EFB03402.html&quot; guid=&quot;_d3fM4Ft3Ed-s-Z5crgs3zA&quot;>Agent&lt;/a>s should be
+        considered to compose the CSS Foci.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

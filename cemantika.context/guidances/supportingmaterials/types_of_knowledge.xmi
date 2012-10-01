@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-V9zujRS_r57dLhRgWjmsKw"
+    name="types_of_knowledge,_3cfZ4FuzEd-s-Z5crgs3zA" guid="-V9zujRS_r57dLhRgWjmsKw"
+    changeDate="2010-05-09T18:45:20.635-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Proceduralized Context (Active Context), Contextual Knowledge, External Knowledge.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

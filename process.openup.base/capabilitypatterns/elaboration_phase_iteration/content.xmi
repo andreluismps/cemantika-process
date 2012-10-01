@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-TceMuWXdZ1TV2gERYKpA5g"
+    name="elaboration_phase_iteration,_aUsVEdONEdyqlogshP8l4g" guid="-TceMuWXdZ1TV2gERYKpA5g"
+    version="7.2.0">
+  <mainDescription>&lt;p>
+            Most activities during a typical iteration in Elaboration phase happen in parallel. Essentially, the main objectives
+            for Elaboration are related to better understanding the requirements, creating and establishing a baseline of the
+            architecture for the system, and mitigating top-priority risks.
+        &lt;/p>
+        &lt;p>
+            The following table summarizes the&amp;nbsp;Elaboration phase objectives and&amp;nbsp;what activities address each objective:
+        &lt;/p>
+        &lt;p align=&quot;center&quot;>
+            &lt;strong>Elaboration phase objectives and activities&lt;/strong>
+        &lt;/p>
+        &lt;table align=&quot;center&quot; border=&quot;1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;648&quot;>
+            &lt;tbody>
+                &lt;tr>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                        &lt;p style=&quot;text-align: justify;&quot;>
+                            &lt;b>Phase objectives&lt;/b>
+                        &lt;/p>
+                    &lt;/td>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                        &lt;p style=&quot;text-align: justify;&quot;>
+                            &lt;b>Activities that address objectives&lt;/b>
+                        &lt;/p>
+                    &lt;/td>
+                &lt;/tr>
+                &lt;tr>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                        Get a more detailed understanding of the requirements
+                    &lt;/td>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                        &lt;p>
+                            &lt;a class=&quot;elementLink&quot;
+                            href=&quot;./../../process.openup.base/capabilitypatterns/identify_and_refine_requirements_7FA6CB14.html&quot;
+                            guid=&quot;_xxcpgdOEEdyqlogshP8l4g&quot;>Identify and Refine Requirements&lt;/a>
+                        &lt;/p>
+                    &lt;/td>
+                &lt;/tr>
+                &lt;tr>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                        Design, implement, validate, and baseline an architecture
+                    &lt;/td>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                        &lt;p style=&quot;text-align: justify;&quot;>
+                            &lt;a class=&quot;elementLink&quot;
+                            href=&quot;./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html&quot;
+                            guid=&quot;_KaeNsdOFEdyqlogshP8l4g&quot;>Develop the Architecture&lt;/a>
+                        &lt;/p>
+                        &lt;p style=&quot;text-align: justify;&quot;>
+                            &lt;a class=&quot;elementLink&quot;
+                            href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot;
+                            guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a>
+                        &lt;/p>
+                        &lt;p style=&quot;text-align: justify;&quot;>
+                            &lt;a class=&quot;elementLink&quot;
+                            href=&quot;./../../process.openup.base/capabilitypatterns/test_solution_D16D88FC.html&quot;
+                            guid=&quot;_buG4sdOFEdyqlogshP8l4g&quot;>Test Solution&lt;/a>
+                        &lt;/p>
+                    &lt;/td>
+                &lt;/tr>
+                &lt;tr>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;300&quot;>
+                        Mitigate essential risks, and produce accurate schedule and cost estimates
+                    &lt;/td>
+                    &lt;td class=&quot;Normal&quot; valign=&quot;top&quot; width=&quot;348&quot;>
+                        &lt;a class=&quot;elementLink&quot;
+                        href=&quot;./../../process.openup.base/capabilitypatterns/plan_manage_iteration_F9713A62.html&quot;
+                        guid=&quot;_oZgCsdOEEdyqlogshP8l4g&quot;>Plan and Manage Iteration&lt;/a>&lt;br />
+                         
+                    &lt;/td>
+                &lt;/tr>
+            &lt;/tbody>
+        &lt;/table></mainDescription>
+  <alternatives>There will be iterations when projects risks are being addressed by creating software, but they may not be architecturally&#xD;
+significant. In this case, &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_solution_4FBB0E6E.html&quot; guid=&quot;_RXGoodOFEdyqlogshP8l4g&quot;>Develop Solution Increment&lt;/a> will be performed outside the context of the architecture. For the most part, Develop Solution will&#xD;
+be performed in the context of &lt;a class=&quot;elementLink&quot; href=&quot;./../../process.openup.base/capabilitypatterns/develop_architecture_C7BBA35B.html&quot; guid=&quot;_KaeNsdOFEdyqlogshP8l4g&quot;>Develop the Architecture&lt;/a> during the Elaboration phase.</alternatives>
+</org.eclipse.epf.uma:ProcessDescription>

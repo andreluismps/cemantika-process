@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-MAU-7dpOKWtKAuC7aS1VTw"
+    name="new_role,_HhXz0FrlEd-s-Z5crgs3zA" guid="-MAU-7dpOKWtKAuC7aS1VTw" changeDate="2010-05-08T18:09:58.216-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Context Designer is the person or team responsible to identify context related requirements and to design context-sensitive
+        solutions. &lt;br /></mainDescription>
+  <skills>Expertise on:&lt;br />
+         &lt;br />
+         
+        &lt;ul>
+            &lt;li>
+                Human cognition
+            &lt;/li>
+            &lt;li>
+                Acquisition technologies (e.g. sensors)
+            &lt;/li>
+            &lt;li>
+                Artificial intelligence
+            &lt;/li>
+            &lt;li>
+                Software development
+            &lt;/li>
+            &lt;li>
+                Software usability&lt;br />
+            &lt;/li>
+        &lt;/ul></skills>
+</org.eclipse.epf.uma:RoleDescription>

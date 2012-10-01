@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-44oUQ2jczSEZEuDst0IcTA"
+    name="new_toolmentor,_BD-xMFu3Ed-s-Z5crgs3zA" guid="-44oUQ2jczSEZEuDst0IcTA" changeDate="2010-05-09T19:09:26.550-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Description of how to use Tool&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

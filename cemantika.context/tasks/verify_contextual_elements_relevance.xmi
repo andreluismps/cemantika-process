@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-2HSVbWm8-Vdipnw47AHh5Q"
+    name=",_fTkpgFytEd-daNeN1z0Psw" guid="-2HSVbWm8-Vdipnw47AHh5Q">
+  <sections xmi:id="_BQ84gFyvEd-daNeN1z0Psw" name="Identify Relevance between Contextual Elements and Focus"
+      guid="_BQ84gFyvEd-daNeN1z0Psw">
+    <sectionDescription>For each focus, associates a relevance value for its contexual elements. The relevance value can be Medium, Low,
+        High.&lt;br /></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

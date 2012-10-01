@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_RAZV8GBqEd-DPMZMcQzoLA"
+      guid="_RAZV8GBqEd-DPMZMcQzoLA">
+    <resourceDescriptors xmi:id="_RAZV8WBqEd-DPMZMcQzoLA" id="-BVOeRgDGnmCk5YbBrM_U8A"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jyWuMGBsEd-DPMZMcQzoLA" id="-xXUEKLyvXHosksyDa3BRng"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_jyYjYGBsEd-DPMZMcQzoLA" id="-2UWzcTTq8t9Bx_cNZWl1bQ"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_PXjzAGEyEd-DPMZMcQzoLA" id="-B-z10JWQBqFtZJJ12mfMjQ"
+        uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_A3Rj8GEzEd-DPMZMcQzoLA" id="-aSjj09T049x_xP9ivUiiyg"
+        uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Q8yBQGBqEd-DPMZMcQzoLA" name="css_design_process"
+      guid="_Q8yBQGBqEd-DPMZMcQzoLA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_9XL90GExEd-DPMZMcQzoLA"
+        name="Context Specification Phase" guid="_9XL90GExEd-DPMZMcQzoLA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_E2DjIGEyEd-DPMZMcQzoLA"
+          name="Context Specification Iteration" guid="_E2DjIGEyEd-DPMZMcQzoLA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_L8d2MGIkEd-jf8M_sfRf4Q"
+            name="Context Specification" guid="_L8d2MGIkEd-jf8M_sfRf4Q">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_L8d2MWIkEd-jf8M_sfRf4Q"
+              name="Context Specification" guid="_L8d2MWIkEd-jf8M_sfRf4Q" superActivities="_E2DjIWEyEd-DPMZMcQzoLA"
+              variabilityType="extends">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_fKuagGEWEd-DPMZMcQzoLA#_MFVzIGEYEd-DPMZMcQzoLA"/>
+          </processElements>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_E2DjIWEyEd-DPMZMcQzoLA"
+            name="Context Specification Iteration" guid="_E2DjIWEyEd-DPMZMcQzoLA"
+            presentationName="Context Specification Iteration [1..n]" superActivities="_9XL90WExEd-DPMZMcQzoLA"
+            isRepeatable="true" breakdownElements="_L8d2MWIkEd-jf8M_sfRf4Q"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_9XL90WExEd-DPMZMcQzoLA"
+          name="Context Specification Phase" guid="_9XL90WExEd-DPMZMcQzoLA" presentationName="Context Specification Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" breakdownElements="_E2DjIWEyEd-DPMZMcQzoLA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_anfUsGFqEd-Pefk4w1orug"
+        name="Context Manage" guid="_anfUsGFqEd-Pefk4w1orug">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fWW3kGFqEd-Pefk4w1orug"
+          name="Context Management Iteration [1..n]" guid="_fWW3kGFqEd-Pefk4w1orug">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NIhZoGIkEd-jf8M_sfRf4Q"
+            name="Context Management Design" guid="_NIhZoGIkEd-jf8M_sfRf4Q">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_NIhZoWIkEd-jf8M_sfRf4Q"
+              name="Context Management Design" guid="_NIhZoWIkEd-jf8M_sfRf4Q" superActivities="_fWW3kWFqEd-Pefk4w1orug"
+              variabilityType="extends">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ir6pUGEWEd-DPMZMcQzoLA#_dmbIoWE2Ed-Pefk4w1orug"/>
+          </processElements>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_fWW3kWFqEd-Pefk4w1orug"
+            name="Context Management Iteration [1..n]" guid="_fWW3kWFqEd-Pefk4w1orug"
+            presentationName="Context Management Iteration [1..n]" superActivities="_anfUsWFqEd-Pefk4w1orug"
+            isRepeatable="true" breakdownElements="_NIhZoWIkEd-jf8M_sfRf4Q"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_anfUsWFqEd-Pefk4w1orug"
+          name="Context Manage" guid="_anfUsWFqEd-Pefk4w1orug" presentationName="Context Management Design Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" linkToPredecessor="_-Bsp4GFyEd-Pefk4w1orug"
+          breakdownElements="_fWW3kWFqEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_-Bsp4GFyEd-Pefk4w1orug"
+          guid="_-Bsp4GFyEd-Pefk4w1orug" pred="_9XL90WExEd-DPMZMcQzoLA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UCBYYGFxEd-Pefk4w1orug"
+        name="Context Usage Design Phase" guid="_UCBYYGFxEd-Pefk4w1orug">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZMqRQGFxEd-Pefk4w1orug"
+          name="Context Usage Iteration [1..n]" guid="_ZMqRQGFxEd-Pefk4w1orug">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZMqRQWFxEd-Pefk4w1orug"
+            name="Context Usage Design" guid="_ZMqRQWFxEd-Pefk4w1orug">
+          <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ZMqRQmFxEd-Pefk4w1orug"
+              name="Context Usage Design" guid="_ZMqRQmFxEd-Pefk4w1orug" superActivities="_ZMqRQ2FxEd-Pefk4w1orug"
+              variabilityType="extends">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_oWip0GEWEd-DPMZMcQzoLA#_ZFqTMGE2Ed-Pefk4w1orug"/>
+          </processElements>
+        </childPackages>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_ZMqRQ2FxEd-Pefk4w1orug"
+            name="Context Usage Iteration [1..n]" guid="_ZMqRQ2FxEd-Pefk4w1orug" presentationName="Context Usage Iteration [1..n]"
+            superActivities="_UCBYYWFxEd-Pefk4w1orug" isRepeatable="true" breakdownElements="_ZMqRQmFxEd-Pefk4w1orug"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_UCBYYWFxEd-Pefk4w1orug"
+          name="Context Usage Design Phase" guid="_UCBYYWFxEd-Pefk4w1orug" presentationName="Context Usage Design Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" linkToPredecessor="_9Whl8GFyEd-Pefk4w1orug"
+          breakdownElements="_ZMqRQ2FxEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_9Whl8GFyEd-Pefk4w1orug"
+          guid="_9Whl8GFyEd-Pefk4w1orug" pred="_9XL90WExEd-DPMZMcQzoLA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hpZNAGFxEd-Pefk4w1orug"
+        name="Code Generation Phase" guid="_hpZNAGFxEd-Pefk4w1orug">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_hpZNAWFxEd-Pefk4w1orug"
+          name="Code Generation Phase" guid="_hpZNAWFxEd-Pefk4w1orug" presentationName="Code Generation Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" linkToPredecessor="_KX6YoGFzEd-Pefk4w1orug _KX-DAGFzEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KX6YoGFzEd-Pefk4w1orug"
+          guid="_KX6YoGFzEd-Pefk4w1orug" pred="_UCBYYWFxEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KX-DAGFzEd-Pefk4w1orug"
+          guid="_KX-DAGFzEd-Pefk4w1orug" pred="_anfUsWFqEd-Pefk4w1orug"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hpZNAmFxEd-Pefk4w1orug"
+        name="Testing Phase" guid="_hpZNAmFxEd-Pefk4w1orug">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_hpZNA2FxEd-Pefk4w1orug"
+          name="Testing Phase" guid="_hpZNA2FxEd-Pefk4w1orug" presentationName="Testing Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" linkToPredecessor="_3Qi7oGFxEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3Qi7oGFxEd-Pefk4w1orug"
+          guid="_3Qi7oGFxEd-Pefk4w1orug" pred="_hpZNAWFxEd-Pefk4w1orug"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hpZNBGFxEd-Pefk4w1orug"
+        name="CSS Evaluation Phase" guid="_hpZNBGFxEd-Pefk4w1orug">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_hpZNBWFxEd-Pefk4w1orug"
+          name="CSS Evaluation Phase" guid="_hpZNBWFxEd-Pefk4w1orug" presentationName="CSS Evaluation Phase"
+          superActivities="_Q8yBQWBqEd-DPMZMcQzoLA" linkToPredecessor="_3yiOYGFxEd-Pefk4w1orug"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_3yiOYGFxEd-Pefk4w1orug"
+          guid="_3yiOYGFxEd-Pefk4w1orug" pred="_hpZNA2FxEd-Pefk4w1orug"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_Q8yBQWBqEd-DPMZMcQzoLA"
+        name="css_design_process" guid="_Q8yBQWBqEd-DPMZMcQzoLA" presentationName="CSS Design Process"
+        briefDescription="Roadmap to develop CSS" breakdownElements="_9XL90WExEd-DPMZMcQzoLA _anfUsWFqEd-Pefk4w1orug _UCBYYWFxEd-Pefk4w1orug _hpZNAWFxEd-Pefk4w1orug _hpZNA2FxEd-Pefk4w1orug _hpZNBWFxEd-Pefk4w1orug">
+      <ownedRules xmi:id="_jsmEcGBsEd-DPMZMcQzoLA" guid="_jsmEcGBsEd-DPMZMcQzoLA"/>
+      <presentation xmi:id="-BVOeRgDGnmCk5YbBrM_U8A" href="uma://-BVOeRgDGnmCk5YbBrM_U8A#-BVOeRgDGnmCk5YbBrM_U8A"/>
+      <includesPatterns href="uma://_fKuagGEWEd-DPMZMcQzoLA#_fKuagWEWEd-DPMZMcQzoLA"/>
+      <includesPatterns href="uma://_ir6pUGEWEd-DPMZMcQzoLA#_ir6pUWEWEd-DPMZMcQzoLA"/>
+      <includesPatterns href="uma://_oWip0GEWEd-DPMZMcQzoLA#_oWip0WEWEd-DPMZMcQzoLA"/>
+      <defaultContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+      <validContext href="uma://_TJVNUOvFEdyp6czxLiQq9g#_OWWdwF76Ed-NIdbgBagcbg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

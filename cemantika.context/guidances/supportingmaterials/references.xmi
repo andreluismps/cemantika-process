@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-VSlaio8rMD7ztAr76TEt3Q"
+    name="new_supporting_material,_11A6EGInEd-jf8M_sfRf4Q" guid="-VSlaio8rMD7ztAr76TEt3Q"
+    changeDate="2010-05-18T00:08:40.390-0300">
+  <mainDescription>&lt;h3>
+            General&lt;br />
+        &lt;/h3>
+        &lt;table summary=&quot;layout table&quot; border=&quot;0&quot; width=&quot;100%&quot;>
+            &lt;tbody>
+                &lt;tr>
+                    &lt;td valign=&quot;top&quot; width=&quot;12%&quot;>
+                        SPEM08
+                    &lt;/td>
+                    &lt;td colspan=&quot;2&quot;>
+                        Software Process Engineering Meta-Model, Version 2.0y, Object Management Group, 2008.&lt;br />
+                         &lt;br />
+                         
+                    &lt;/td>
+                &lt;/tr>
+            &lt;/tbody>
+        &lt;/table>
+        &lt;h3>
+            &lt;span style=&quot;font-weight: bold;&quot;>Technical&lt;/span>
+        &lt;/h3>
+        &lt;table summary=&quot;layout table&quot; border=&quot;0&quot; width=&quot;100%&quot;>
+            &lt;tbody>
+                &lt;tr>
+                    &lt;td valign=&quot;top&quot; width=&quot;12%&quot;>
+                        VIEIRA08
+                    &lt;/td>
+                    &lt;td colspan=&quot;2&quot;>
+                        CEMantika: A Domain-Independent Framework for Designing Context-Sensitive System. PhD thesis, UFPE.&lt;br />
+                         &lt;br />
+                         &lt;br />
+                         &lt;br />
+                         
+                    &lt;/td>
+                &lt;/tr>
+            &lt;/tbody>
+        &lt;/table>
+        &lt;br />
+         &lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

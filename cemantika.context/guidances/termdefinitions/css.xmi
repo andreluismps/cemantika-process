@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-uw7EDMmlV_vMqkf_ACVW4w"
+    name="new_term_definition,_K3KhIFt4Ed-s-Z5crgs3zA" guid="-uw7EDMmlV_vMqkf_ACVW4w"
+    changeDate="2010-05-09T11:36:13.298-0300">
+  <copyrightStatement href="uma://_qso6oFrYEd-s-Z5crgs3zA#_L-JFoFrbEd-s-Z5crgs3zA"/>
+  <mainDescription>Context Sensitive System.&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

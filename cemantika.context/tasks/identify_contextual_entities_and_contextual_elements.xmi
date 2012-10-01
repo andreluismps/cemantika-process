@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-w6fpUIRIFDXGC1RsL88nKQ"
+    name=",_KudHAFyqEd-daNeN1z0Psw" guid="-w6fpUIRIFDXGC1RsL88nKQ" changeDate="2010-05-11T00:08:56.134-0300">
+  <sections xmi:id="_1eRRcFyqEd-daNeN1z0Psw" name="Identify Contextual Entities" guid="_1eRRcFyqEd-daNeN1z0Psw"/>
+  <sections xmi:id="_25-acFyqEd-daNeN1z0Psw" name="Identify Contextual Elements for each Contextual Entity"
+      guid="_25-acFyqEd-daNeN1z0Psw"/>
+  <purpose>Identify entities that influence behavior variations.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>

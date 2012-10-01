@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-BVOeRgDGnmCk5YbBrM_U8A"
+      name="CSS Design Process,_Q8yBQWBqEd-DPMZMcQzoLA" guid="-BVOeRgDGnmCk5YbBrM_U8A">
+    <mainDescription>CSS demands that designers consider new aspects and challenges in comparison to traditional applications. In this sense, it
+        is important to provide CSS developers with a process that could guide them through the fulfilment of context specific
+        requirements. In this work, we argue that including context entails a different way of thinking about a system’s
+        engineering. When designing a CSS, a major emphasis should be given to the analysis of how users interact (or are expected
+        to interact) with the CSS and how these users expect the CSS to act on their behalf.&lt;br />
+         &lt;br />
+         We describe our proposal for a CSS Design Process, which details the main activities related to context specification and
+        the design of CSS, providing a systematic way to execute these activities. It extends the analysis and design phases
+        described in any software development lifecycle.&lt;br /></mainDescription>
+    <purpose>Provide Context Sensitive Systems developers with a process that could guide them through the fulfilment of context
+        specific requirements.&lt;br /></purpose>
+    <scope>Development of CSS&lt;br /></scope>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-aSjj09T049x_xP9ivUiiyg" name="Context Specification,_fKuagWEWEd-DPMZMcQzoLA"
+      guid="-aSjj09T049x_xP9ivUiiyg"/>
+</xmi:XMI>

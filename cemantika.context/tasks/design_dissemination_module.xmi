@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.5/uma.ecore"
+    xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.0" xmi:id="-PI0DZEwFlivLZf4W7B1F3w"
+    name=",_0IvSsF47Ed-jf_McM8riaQ" guid="-PI0DZEwFlivLZf4W7B1F3w" changeDate="2010-05-13T00:09:10.448-0300">
+  <sections xmi:id="_3VuEsF4-Ed-jf_McM8riaQ" name="Identify Context Consumers" guid="_3VuEsF4-Ed-jf_McM8riaQ"/>
+  <sections xmi:id="_dxbyIF4-Ed-jf_McM8riaQ" name="Build notification mechanismo to context consumers"
+      guid="_dxbyIF4-Ed-jf_McM8riaQ"/>
+  <purpose>The objective of this activity is to design the elements responsible for disseminating CEs to different context
+        consumers.&lt;br /></purpose>
+</org.eclipse.epf.uma:TaskDescription>
